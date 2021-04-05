@@ -1,11 +1,11 @@
-* [Surveys](Surveys)
+* [Surveys](#Surveys)
   * [Quantum Computing](#Quantum-Computing)
-  * [Quantum Machine Learning](Quantum-Machine-Learning)
-  * [Quantum Deep Learning](Quantum-Deep-Learning)
-* Papers
-  * Gate-Model
+  * [Quantum Machine Learning](#Quantum-Machine-Learning)
+  * [Quantum Deep Learning](#Quantum-Deep-Learning)
+* [Papers](#Papers)
+  * [Gate Model](#Gate-Model)
     * ...
-  * Quantum Annealing
+  * [Quantum Annealing](#Quantum-Annealing)
     * ...
 
 ## Surveys
@@ -14,3 +14,8 @@
 
 ### Quantum Machine Learning
 ### Quantum Deep Learning
+
+
+## Surveys
+### Gate Model
+### Quantum Annealing
