@@ -1,5 +1,5 @@
 * [Surveys](Surveys)
-  * [Quantum Computing](Quantum-Computing)
+  * [Quantum Computing](#Quantum-Computing)
   * [Quantum Machine Learning](Quantum-Machine-Learning)
   * [Quantum Deep Learning](Quantum-Deep-Learning)
 * Papers
