@@ -16,6 +16,6 @@
 ### Quantum Deep Learning
 
 
-## Surveys
+## Papers
 ### Gate Model
 ### Quantum Annealing
