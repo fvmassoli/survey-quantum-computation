@@ -14,8 +14,8 @@
 ## Surveys
 ### Quantum Computing
 * [Quantum Computing in the NISQ era and beyond](https://quantum-journal.org/papers/q-2018-08-06-79/pdf/) | 2018
-* [Defining and detecting quantum speedup](https://arxiv.org/pdf/1401.2910.pdf) | 2014
-* [Quantum computing and the entanglement frontier](https://arxiv.org/pdf/1203.5813.pdf) | 2012
+* [Defining and Detecting Quantum Speedup](https://arxiv.org/pdf/1401.2910.pdf) | 2014
+* [Quantum Computing and the Entanglement Frontier](https://arxiv.org/pdf/1203.5813.pdf) | 2012
 
 ### Quantum Machine Learning
 ### Quantum Deep Learning
