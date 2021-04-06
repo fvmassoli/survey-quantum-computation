@@ -31,7 +31,7 @@ These articles represented the starting point for the paper [Entangling Computat
 
 ### Quantum Machine Learning
 * **2009**
-  * (Quantum algorithm for linear systems of equations)[https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.150502] 
+  * [Quantum algorithm for linear systems of equations](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.150502) 
 ### Quantum Deep Learning
 
 
