@@ -19,8 +19,8 @@ These articles represented the starting point for the paper [Entangling Computat
     * ...
 
 
-## Surveys
-### Quantum Computing
+### Surveys
+#### Quantum Computing
 * **2018**
   * [Quantum Computing in the NISQ era and beyond](https://quantum-journal.org/papers/q-2018-08-06-79/pdf/)
   * [Adiabatic Quantum Computing](https://arxiv.org/pdf/1611.04471.pdf)
@@ -30,12 +30,14 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Quantum Computing and the Entanglement Frontier](https://arxiv.org/pdf/1203.5813.pdf)
 
 ### Quantum Machine Learning
+* **2009**
+  * (Quantum algorithm for linear systems of equations)[https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.150502] 
 ### Quantum Deep Learning
 
 
-## Papers
-### Gate Model
-### Quantum Annealing
+### Papers
+#### Gate Model
+#### Quantum Annealing
 
 
 
