@@ -24,6 +24,8 @@ These articles represented the starting point for the paper [Entangling Computat
 * **2018**
   * [Quantum Computing in the NISQ era and beyond](https://quantum-journal.org/papers/q-2018-08-06-79/pdf/)
   * [Adiabatic Quantum Computing](https://arxiv.org/pdf/1611.04471.pdf)
+* **2017**
+  * [Quantum computational supremacy](https://www.nature.com/articles/nature23458.pdf)  
 * **2014**
   * [Defining and Detecting Quantum Speedup](https://arxiv.org/pdf/1401.2910.pdf)
 * **2012**
