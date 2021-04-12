@@ -46,7 +46,10 @@ These articles represented the starting point for the paper [Entangling Computat
 ### Papers
 #### Gate Model
 #### Quantum Annealing
-
+#### Simulation
+#### Miscellanea
+* **2008**
+  * [Quantum Random Access Memory](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.160501)
 
 
 ## Reference
