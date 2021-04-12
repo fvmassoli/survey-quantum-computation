@@ -25,6 +25,7 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Superconducting Qubits: Current State of Play](https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605) 
 * **2019**
   * [A Survey on Quantum Computing Technology](https://www.sciencedirect.com/science/article/abs/pii/S1574013718301709)
+  * [QUANTUM COMPUTING: SURVEY AND ANALYSIS](https://link.springer.com/content/pdf/10.1007/s10559-019-00107-w.pdf)
 * **2018**
   * [Quantum Computing in the NISQ era and beyond](https://quantum-journal.org/papers/q-2018-08-06-79/pdf/)
   * [Adiabatic Quantum Computing](https://arxiv.org/pdf/1611.04471.pdf)
