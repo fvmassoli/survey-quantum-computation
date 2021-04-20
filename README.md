@@ -47,7 +47,9 @@ These articles represented the starting point for the paper [Entangling Computat
 #### Gate Model
 #### Quantum Annealing
 * **2014**
-  * [Entanglement in a Quantum Annealing Processor](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.021041)
+  * [Entanglement in a Quantum Annealing Processor](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.021041) 
+* **2011**
+  * [Quantum annealing with manufactured spins](https://www.nature.com/articles/nature10012.pdf) 
 #### Simulation
 #### Miscellanea
 * **2008**
