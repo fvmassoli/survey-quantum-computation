@@ -24,6 +24,7 @@ These articles represented the starting point for the paper [Entangling Computat
 * **2020**
   * [Superconducting Qubits: Current State of Play](https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605) 
   * [Theory versus practice in annealing-based quantum computing](https://www.sciencedirect.com/science/article/abs/pii/S0304397520300529)
+  * [Perspectives of quantum annealing: methods and implementations](https://iopscience.iop.org/article/10.1088/1361-6633/ab85b8)
 * **2019**
   * [A Survey on Quantum Computing Technology](https://www.sciencedirect.com/science/article/abs/pii/S1574013718301709)
   * [QUANTUM COMPUTING: SURVEY AND ANALYSIS](https://link.springer.com/content/pdf/10.1007/s10559-019-00107-w.pdf)
