@@ -53,6 +53,8 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Entanglement in a Quantum Annealing Processor](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.021041) 
 * **2011**
   * [Quantum annealing with manufactured spins](https://www.nature.com/articles/nature10012.pdf) 
+* **2001**
+  * [A Quantum Adiabatic Evolution AlgorithmApplied to Random Instances ofan NP-Complete Problem](https://arxiv.org/pdf/quant-ph/0104129.pdf)  
 * **2000**
   * [Quantum Computation by Adiabatic Evolution](https://arxiv.org/pdf/quant-ph/0001106.pdf)
 #### Simulation
