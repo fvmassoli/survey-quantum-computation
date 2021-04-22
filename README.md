@@ -57,6 +57,8 @@ These articles represented the starting point for the paper [Entangling Computat
   * [A Quantum Adiabatic Evolution Algorithm Applied to Random Instances ofan NP-Complete Problem](https://arxiv.org/pdf/quant-ph/0104129.pdf)  
 * **2000**
   * [Quantum Computation by Adiabatic Evolution](https://arxiv.org/pdf/quant-ph/0001106.pdf)
+* **1998** 
+  * [Quantum annealing in the transverse Ising model](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.58.5355)
 * **1996**
   * [Universal Quantum Simulators](https://science.sciencemag.org/content/273/5278/1073)  
 #### Simulation
