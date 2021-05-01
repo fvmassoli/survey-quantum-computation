@@ -48,6 +48,8 @@ These articles represented the starting point for the paper [Entangling Computat
 #### Gate Model
 * **2019**
   * [Quantum supremacy using a programmable superconducting processor](https://www.nature.com/articles/s41586-019-1666-5)
+* **1992**
+  * [Rapid solution of problems by quantum computation](https://royalsocietypublishing.org/doi/10.1098/rspa.1992.0167)
 * **1985**
   * [Quantum theory, the Church–Turing principle and the universal quantum computer](https://royalsocietypublishing.org/doi/10.1098/rspa.1985.0070)  
 #### Adiabatic Quantum Computation
