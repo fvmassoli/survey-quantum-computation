@@ -48,6 +48,8 @@ These articles represented the starting point for the paper [Entangling Computat
 #### Gate Model
 * **2019**
   * [Quantum supremacy using a programmable superconducting processor](https://www.nature.com/articles/s41586-019-1666-5)
+* **2014**
+  * [A Quantum Approximate Optimization Algorithm](https://arxiv.org/abs/1411.4028)  
 * **1992**
   * [Rapid solution of problems by quantum computation](https://royalsocietypublishing.org/doi/10.1098/rspa.1992.0167)
 * **1985**
