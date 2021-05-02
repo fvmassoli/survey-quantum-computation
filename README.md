@@ -37,6 +37,8 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Defining and Detecting Quantum Speedup](https://arxiv.org/pdf/1401.2910.pdf)
 * **2012**
   * [Quantum Computing and the Entanglement Frontier](https://arxiv.org/pdf/1203.5813.pdf)
+* **2008** 
+  * [Superconducting quantum bits](https://www.nature.com/articles/nature07128)
 
 ### Quantum Machine Learning
 * **2009**
