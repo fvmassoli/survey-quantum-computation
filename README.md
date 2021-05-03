@@ -46,7 +46,8 @@ These articles represented the starting point for the paper [Entangling Computat
 ### Quantum Deep Learning
 * **2019**
   * [An artificial neuron implemented on an actual quantum processor](https://www.nature.com/articles/s41534-019-0140-4) 
-
+* **2018**
+  * [Quantum Perceptron Models](https://papers.nips.cc/paper/2016/file/d47268e9db2e9aa3827bba3afb7ff94a-Paper.pdf) 
 ### Papers
 #### Gate Model
 * **2019**
