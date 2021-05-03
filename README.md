@@ -45,7 +45,7 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Quantum algorithm for linear systems of equations](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.150502) 
 ### Quantum Deep Learning
 * **2019**
-  * [An artificial neuron implemented on an actual quantumprocessor](https://www.nature.com/articles/s41534-019-0140-4) 
+  * [An artificial neuron implemented on an actual quantum processor](https://www.nature.com/articles/s41534-019-0140-4) 
 
 ### Papers
 #### Gate Model
