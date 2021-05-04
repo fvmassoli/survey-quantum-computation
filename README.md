@@ -76,9 +76,10 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Universal Quantum Simulators](https://science.sciencemag.org/content/273/5278/1073)  
 #### Simulation
 #### Miscellanea
+* **2013**
+  * [Quantum hypergraph states](https://iopscience.iop.org/article/10.1088/1367-2630/15/11/113022/meta)
 * **2008**
   * [Quantum Random Access Memory](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.160501)
-
 
 ## Reference
 To cite our work, please use the following form
