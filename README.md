@@ -52,7 +52,9 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Implementing perceptron models with qubits](https://biblioproxy.cnr.it:2072/pra/abstract/10.1103/PhysRevA.100.020301)
 * **2018**
   * [Quantum Perceptron Models](https://papers.nips.cc/paper/2016/file/d47268e9db2e9aa3827bba3afb7ff94a-Paper.pdf) 
-
+* **2017**
+  * [Quantum Neuron: an elementary building block for machine learningon quantum computers](https://arxiv.org/pdf/1711.11240) 
+ 
 ### Quantum Deep Learning
 
 ### Papers
