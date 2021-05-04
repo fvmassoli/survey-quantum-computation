@@ -56,7 +56,9 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Quantum Neuron: an elementary building block for machine learningon quantum computers](https://arxiv.org/pdf/1711.11240) 
  
 ### Quantum Deep Learning
-
+* **2014**
+  * [The quest for a Quantum Neural Network](https://link.springer.com/article/10.1007%2Fs11128-014-0809-8)
+   
 ### Papers
 #### Gate Model
 * **2019**
