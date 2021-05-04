@@ -1,4 +1,4 @@
-# Entangling Computations and MachineLearning: A Quantum Survey
+# Entangling Superposition and Machine Learning: A Quantum Survey
 This repo reports a collection of relevant papers in the fields of Quantum Computing, Quantum Machine Learning and Quantum Deep Learning.
 
 These articles represented the starting point for the paper [Entangling Computations and MachineLearning: A Quantum Survey](http://...) and for anyone who is approaching such a field.
