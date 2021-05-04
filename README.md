@@ -47,6 +47,7 @@ These articles represented the starting point for the paper [Entangling Computat
 
 ### Quantum Perceptron
 * **2019**
+  * [Unitary quantum perceptron as efficient universal approximator](https://iopscience.iop.org/article/10.1209/0295-5075/125/30004)
   * [An artificial neuron implemented on an actual quantum processor](https://www.nature.com/articles/s41534-019-0140-4) 
   * [Implementing perceptron models with qubits](https://biblioproxy.cnr.it:2072/pra/abstract/10.1103/PhysRevA.100.020301)
 * **2018**
