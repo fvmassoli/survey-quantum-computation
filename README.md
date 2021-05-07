@@ -87,8 +87,10 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Universal Quantum Simulators](https://science.sciencemag.org/content/273/5278/1073)  
 #### Simulation
 #### Miscellanea
+* **2021**
+  * [Speeding up quantum perceptron via shortcuts to adiabaticity](https://www.nature.com/articles/s41598-021-85208-3)
 * **2018**
-  * [Adiabatic superconducting artificial neuralnetwork: Basic cells](https://aip.scitation.org/doi/10.1063/1.5042147) 
+  * [Adiabatic superconducting artificial neuralnetwork: Basic cells](https://aip.scitation.org/doi/10.1063/1.5042147)
 * **2013**
   * [Quantum hypergraph states](https://iopscience.iop.org/article/10.1088/1367-2630/15/11/113022/meta)
 * **2008**
