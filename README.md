@@ -52,6 +52,7 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Implementing perceptron models with qubits](https://biblioproxy.cnr.it:2072/pra/abstract/10.1103/PhysRevA.100.020301)
   * [A Unitary Weights Based One-Iteration Quantum Perceptron Algorithm for Non-Ideal Training Sets](https://ieeexplore.ieee.org/document/8631025)
 * **2018**
+  * [Towards a Real Quantum Neuron ](https://www.scirp.org/pdf/NS_2018031517004350.pdf)  
   * [Quantum Perceptron Models](https://papers.nips.cc/paper/2016/file/d47268e9db2e9aa3827bba3afb7ff94a-Paper.pdf) 
   * [Implementable quantum classifier for nonlinear data](https://arxiv.org/abs/1809.06056)
 * **2017**
