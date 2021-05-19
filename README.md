@@ -62,6 +62,7 @@ These articles represented the starting point for the paper [Entangling Computat
 * **2020**
   * [A Variational Algorithm for QuantumNeural Networks](https://link.springer.com/chapter/10.1007/978-3-030-50433-5_45) 
 * **2019** 
+  * [Quantum convolutional neural networks](https://www.nature.com/articles/s41567-019-0648-8)
   * [Continuous-variable quantum neural networks](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033063)
 * **2017**
   * [Quantum autoencoders for efficient compression of quantum data](https://iopscience.iop.org/article/10.1088/2058-9565/aa8072)  
