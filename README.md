@@ -60,6 +60,7 @@ These articles represented the starting point for the paper [Entangling Computat
  
 ### Quantum Neural Networks
 * **2020**
+  * [Quanvolutional neural networks: powering image recognition with quantum circuits](https://link.springer.com/article/10.1007%2Fs42484-020-00012-y)
   * [Circuit-centric quantum classifiers](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308) 
   * [A Variational Algorithm for QuantumNeural Networks](https://link.springer.com/chapter/10.1007/978-3-030-50433-5_45) 
 * **2019** 
