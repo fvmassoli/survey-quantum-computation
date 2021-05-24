@@ -63,6 +63,7 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Circuit-centric quantum classifiers](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308) 
   * [A Variational Algorithm for QuantumNeural Networks](https://link.springer.com/chapter/10.1007/978-3-030-50433-5_45) 
 * **2019** 
+  * [Quantum graph neural networks](https://arxiv.org/abs/1909.12264)  
   * [Quantum convolutional neural networks](https://www.nature.com/articles/s41567-019-0648-8)
   * [Continuous-variable quantum neural networks](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033063)
 * **2017**
