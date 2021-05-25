@@ -69,6 +69,7 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Continuous-variable quantum neural networks](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033063)
 * **2017**
   * [Quantum autoencoders for efficient compression of quantum data](https://iopscience.iop.org/article/10.1088/2058-9565/aa8072)  
+  * [Quantum generalisation of feedforward neural networks](https://www.nature.com/articles/s41534-017-0032-4)
 * **2014**
   * [The quest for a Quantum Neural Network](https://link.springer.com/article/10.1007%2Fs11128-014-0809-8)
    
