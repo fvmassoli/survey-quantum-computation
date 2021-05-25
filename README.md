@@ -68,6 +68,7 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Quantum convolutional neural networks](https://www.nature.com/articles/s41567-019-0648-8)
   * [Continuous-variable quantum neural networks](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033063)
 * **2018**
+  * [Classification with Quantum Neural Networks on Near Term Processors](https://arxiv.org/abs/1802.06002) 
   * [Hierarchical quantum classifiers](https://www.nature.com/articles/s41534-018-0116-9)  
 * **2017**
   * [Quantum autoencoders for efficient compression of quantum data](https://iopscience.iop.org/article/10.1088/2058-9565/aa8072)  
