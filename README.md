@@ -59,6 +59,8 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Quantum Neuron: an elementary building block for machine learningon quantum computers](https://arxiv.org/pdf/1711.11240) 
  
 ### Quantum Neural Networks
+* **2021**
+  * [Universal discriminative quantum neural networks](https://arxiv.org/abs/1805.08654) 
 * **2020**
   * [Quanvolutional neural networks: powering image recognition with quantum circuits](https://link.springer.com/article/10.1007%2Fs42484-020-00012-y)
   * [Circuit-centric quantum classifiers](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308) 
