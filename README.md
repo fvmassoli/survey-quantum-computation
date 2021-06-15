@@ -62,6 +62,7 @@ These articles represented the starting point for the paper [Entangling Computat
 * **2021**
   * [Universal discriminative quantum neural networks](https://arxiv.org/abs/1805.08654) 
 * **2020**
+  * [QUANTUM ALGORITHMS FOR DEEP CONVOLUTIONAL NEURAL NETWORK](https://openreview.net/pdf?id=Hygab1rKDS) 
   * [Training deep quantum neural networks](https://www.nature.com/articles/s41467-020-14454-2) 
   * [Data re-uploading for a universal quantum classifier](https://quantum-journal.org/papers/q-2020-02-06-226/) 
   * [Transfer learning in hybrid classical-quantum neural networks](https://arxiv.org/abs/1912.08278)
