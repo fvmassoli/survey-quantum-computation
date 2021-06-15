@@ -81,7 +81,10 @@ These articles represented the starting point for the paper [Entangling Computat
 * **2014**
   * [The quest for a Quantum Neural Network](https://link.springer.com/article/10.1007%2Fs11128-014-0809-8)
 * **2000**
+  * [Quantum associative memory](https://www.sciencedirect.com/science/article/abs/pii/S0020025599001012) 
   * [Quantum artificial neural network architectures and components](https://www.sciencedirect.com/science/article/abs/pii/S0020025500000554) 
+
+
 ### Papers
 #### Gate Model
 * **2019**
