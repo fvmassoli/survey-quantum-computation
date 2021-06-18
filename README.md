@@ -60,6 +60,7 @@ These articles represented the starting point for the paper [Entangling Computat
  
 ### Quantum Neural Networks
 * **2021**
+  * [Quantum Self-Supervised Learning](https://arxiv.org/abs/2103.14653) 
   * [Universal discriminative quantum neural networks](https://arxiv.org/abs/1805.08654) 
 * **2020**
   * [QUANTUM ALGORITHMS FOR DEEP CONVOLUTIONAL NEURAL NETWORK](https://openreview.net/pdf?id=Hygab1rKDS) 
