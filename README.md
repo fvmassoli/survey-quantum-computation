@@ -80,8 +80,10 @@ These articles represented the starting point for the paper [Entangling Computat
 * **2017**
   * [Quantum autoencoders for efficient compression of quantum data](https://iopscience.iop.org/article/10.1088/2058-9565/aa8072)  
   * [Quantum generalisation of feedforward neural networks](https://www.nature.com/articles/s41534-017-0032-4)
-* **2014**
+* **2014** 
   * [The quest for a Quantum Neural Network](https://link.springer.com/article/10.1007%2Fs11128-014-0809-8)
+* **2012**
+  * [Classical and superposed learning for quantum weightless neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0925231211004127?via%3Dihub) 
 * **2010**
   * [Superposition Based Learning Algorithm](https://ieeexplore.ieee.org/document/5715204)  
 * **2000**
