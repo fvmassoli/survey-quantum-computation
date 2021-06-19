@@ -82,6 +82,8 @@ These articles represented the starting point for the paper [Entangling Computat
   * [Quantum generalisation of feedforward neural networks](https://www.nature.com/articles/s41534-017-0032-4)
 * **2014**
   * [The quest for a Quantum Neural Network](https://link.springer.com/article/10.1007%2Fs11128-014-0809-8)
+* **2010**
+  * [Superposition Based Learning Algorithm](https://ieeexplore.ieee.org/document/5715204)  
 * **2000**
   * [Quantum associative memory](https://www.sciencedirect.com/science/article/abs/pii/S0020025599001012) 
   * [Quantum artificial neural network architectures and components](https://www.sciencedirect.com/science/article/abs/pii/S0020025500000554) 
