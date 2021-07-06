@@ -1,5 +1,5 @@
 
-Entangling Superposition and Machine Learning: A Quantum Survey
+A Leap among Entanglement and Neural Networks: A Quantum Survey
 ===============================================================
 
 
