@@ -9,7 +9,7 @@ These articles represented the starting point for the paper [Entangling Computat
 
 To cite our work, please use the following form
 
-<pre><code>@article{massolo2021:entangling,
+<pre><code>@article{massoli2021:entangling,
  title = {Entangling Superposition and Machine Learning: A Quantum Survey},
  author = {TODO},
  journal = {TODO},
