@@ -26,7 +26,7 @@ To cite our work, please use the following reference
 
 * [All the papers (flat view)](https://github.com/fvmassoli/survey-quantum-computations/blob/master/allPapers.md)
 
-* [Papers divided by topics](https://github.com/fvmassoli/survey-quantum-computations/blob/master/papersSortedByTopics.md)
+* [Papers divided by topics](https://github.com/fvmassoli/survey-quantum-computations/blob/master/papersSortedByTopics.md) [WIP]
 
 ## Contacts
 
