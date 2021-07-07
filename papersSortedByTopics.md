@@ -32,7 +32,7 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 * [Quantum Neural Networks](#Quantum-Neural-Networks)
 * [Quantum Optimization](#Quantum-Optimization)
 * [Quantum Perceptron](#Quantum-Perceptron)
-* [Quantum Speedup/Advantage/Supremacy](#Quantum-Speedup/Advantage/Supremacy)
+* [Quantum Speedup-Advantage-Supremacy](#Quantum-Speedup-Advantage-Supremacy)
 * [Quantum Transfer Learning](#Quantum-Transfer-Learning)
 * [Quantum annealing](#Quantum-annealing)
 * [Quantum information and computing](#Quantum-information-and-computing)
@@ -1708,7 +1708,7 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 </code></pre></details>
 
 
-# Quantum Speedup/Advantage/Supremacy
+# Quantum Speedup-Advantage-Supremacy
 
 
 ### 2019
