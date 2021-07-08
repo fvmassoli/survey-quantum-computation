@@ -7,7 +7,7 @@ This repo reports a collection of relevant papers in the fields of Quantum Compu
 
 
 
-These articles represented the starting point for the paper [A Leap among Entanglement and Neural Networks: A Quantum Survey](http://...) and for anyone who is approaching such a field. We are continuously improving the project. Welcome to Pull Request the works (papers, repositories) that are missed by the repo
+These articles represented the starting point for the paper [A Leap among Entanglement and Neural Networks: A Quantum Survey](https://arxiv.org/abs/2107.03313) and for anyone who is approaching such a field. We are continuously improving the project. Welcome to Pull Request the works (papers, repositories) that are missed by the repo
 
 To cite our work, please use the following reference
 
