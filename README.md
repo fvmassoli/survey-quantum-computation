@@ -7,7 +7,7 @@ This repo reports a collection of relevant papers in the fields of Quantum Compu
 
 
 
-These articles represented the starting point for the paper [A Leap among Entanglement and Neural Networks: A Quantum Survey](https://arxiv.org/abs/2107.03313) and for anyone who is approaching such a field. We are continuously improving the project. Welcome to Pull Request the works (papers, repositories) that are missed by the repo
+These articles represented the starting point for the paper [A Leap among Entanglement and Neural Networks: A Quantum Survey](https://arxiv.org/abs/2107.03313) and for anyone who is approaching such a field. We are continuously improving the project. Welcome to Pull Request the works (papers, repositories, topics) that are missed by the repo
 
 To cite our work, please use the following reference
 
@@ -30,6 +30,12 @@ To cite our work, please use the following reference
 
 ## Contacts
 
-If you have any question about our work, please contact [Dr. Fabio Valerio Massoli](mailto:fabio.massoli@isti.cnr.it)
+Have you noticed a missing or misclassified article? We would greatly appreciate it if you could report it to us with a Pull Request or using the form the form at the following link:
+
+
+
+
+
+If you have any question about our work, please contact [Dr. Fabio Valerio Massoli](mailto:fabio.massoli@isti.cnr.it) and [Dr. Lucia Vadicamo](mailto:lucia.vadicamo@isti.cnr.it)
 
 Have fun! :-D

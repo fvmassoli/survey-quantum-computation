@@ -18,7 +18,6 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 * [QPU](#QPU)
 * [QRAM](#QRAM)
 * [Quantum Annealing](#Quantum-Annealing)
-* [Quantum Approximate Optimization Algorithm](#Quantum-Approximate-Optimization-Algorithm)
 * [Quantum Autoencoders](#Quantum-Autoencoders)
 * [Quantum Boltzmann machines](#Quantum-Boltzmann-machines)
 * [Quantum Classification](#Quantum-Classification)
@@ -344,7 +343,7 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 
 
 ### 2021
-<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
+<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
   title={Noisy intermediate-scale quantum (NISQ) algorithms},
   author={Bharti, Kishor and Cervera-Lierta, Alba and Kyaw, Thi Ha and Haug, Tobias and Alperin-Lea, Sumner and Anand, Abhinav and Degroote, Matthias and Heimonen, Hermanni and Kottmann, Jakob S and Menke, Tim and others},
   journal={arXiv preprint arXiv:2101.08448},
@@ -359,6 +358,16 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   year={2021},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
 }</code></pre></details>
+<details><summary>[Mangini et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/134/10002/meta> Quantum computing models for artificial neural networks. </a></b> <i>EPL (Europhysics Letters).</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mangini2021quantum,
+  title={Quantum computing models for artificial neural networks},
+  author={Mangini, Stefano and Tacchino, Francesco and Gerace, Dario and Bajoni, Daniele and Macchiavello, Chiara},
+  journal={EPL (Europhysics Letters)},
+  volume={134},
+  number={1},
+  pages={10002},
+  year={2021},
+  publisher={IOP Publishing}
+}</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032430> Effect of data encoding on the expressive power of variational quantum-machine-learning models. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2021effect,
   title={Effect of data encoding on the expressive power of variational quantum-machine-learning models},
   author={Schuld, Maria and Sweke, Ryan and Meyer, Johannes Jakob},
@@ -368,6 +377,18 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   pages={032430},
   year={2021},
   publisher={APS}
+}</code></pre></details>
+
+
+### 2020
+<details><summary>[Gil Vidal & Theis] <b><a href=https://doi.org/10.3389/fphy.2020.00297> Input redundancy for parameterized quantum circuits. </a></b> <i>Frontiers in Physics.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{gil2020input,
+  title={Input redundancy for parameterized quantum circuits},
+  author={Gil Vidal, Francisco Javier and Theis, Dirk Oliver},
+  journal={Frontiers in Physics},
+  volume={8},
+  pages={297},
+  year={2020},
+  publisher={Frontiers}
 }</code></pre></details>
 
 
@@ -382,6 +403,17 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   year={2019},
   publisher={Wiley Online Library}
 }</code></pre></details>
+
+
+### 2014
+<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
+  Title                    = {A quantum approximate optimization algorithm},
+  Author                   = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
+  Journal                  = {arXiv preprint arXiv:1411.4028},
+  Year                     = {2014},
+  URL                      = {https://arxiv.org/abs/1411.4028}
+}
+</code></pre></details>
 
 
 # Physical Realization of Qubits
@@ -563,28 +595,16 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 }
 </code></pre></details>
 <details><summary>[Isakov et al] <b><a href=https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.180402> Understanding Quantum Tunneling through Quantum Monte Carlo Simulations. </a></b> <i>Physical Review Letters.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Mandra' et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.022337> Strengths and weaknesses of weak-strong cluster problems: A detailed overview of state-of-the-art classical heuristics versus quantum approaches. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Sergey et al] <b><a href=https://www.Nature.com/articles/ncomms12370> Zero-temperature quantum annealing bottlenecks in the spin-glass phase. </a></b> <i>Nature.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Mandra' et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.022337> Strengths and weaknesses of weak-strong cluster problems: A detailed overview of state-of-the-art classical heuristics versus quantum approaches. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 
 
 ### 2015
-<details><summary>[Helmut et al] <b><a href=https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.031026> Seeking Quantum Speedup Through Spin Glasses: The Good, the Bad, and the Ugly. </a></b> <i>Physical Review X.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Itay ert al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.042325> Probing for quantum speedup in spin-glass problems with planted solutions. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Katzgraber et al] <b><a href=https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.031026> Seeking Quantum Speedup Through Spin Glasses: The Good, the Bad, and the Ugly. </a></b> <i>Physical Review X.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 
 
 ### 2014
-<details><summary>[Boixo et al] <b><a href=https://www.Nature.com/articles/nphys2900> Evidence for quantum annealing with more than one hundred qubits. </a></b> <i>Nature.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@Article{evidenceboixo2014,
-  Title                    = {Evidence for quantum annealing with more than one hundred qubits},
-  Author                   = {Boixo, Sergio and R{\o}nnow, Troels F and Isakov, Sergei V and Wang, Zhihui and Wecker, David and Lidar, Daniel A and Martinis, John M and Troyer, Matthias},
-  Journal                  = {Nature physics},
-  Year                     = {2014},
-  Number                   = {3},
-  Pages                    = {218--224},
-  Volume                   = {10},
-  Publisher                = {Nature Publishing Group},
-  URL                      = {https://www.Nature.com/articles/nphys2900}
-}
-</code></pre></details>
 <details><summary>[Bunyk et al] <b><a href=https://ieeexplore.ieee.org/document/6802426> Architectural considerations in the design of a superconducting quantum annealing processor. </a></b> <i>IEEE Transactions on Applied Superconductivity.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[QPU]</b></code> <code><b>[Superconducting Qubits]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@Article{bunyk2014architectural,
   Title                    = {Architectural considerations in the design of a superconducting quantum annealing processor},
   Author                   = {Bunyk, Paul I and Hoskinson, Emile M and Johnson, Mark W and Tolkacheva, Elena and Altomare, Fabio and Berkley, Andrew J and Harris, Richard and Hilton, Jeremy P and Lanting, Trevor and Przybysz, Anthony J and others},
@@ -597,9 +617,21 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://ieeexplore.ieee.org/document/6802426}
 }
 </code></pre></details>
-<details><summary>[Lanting et al] <b><a href=https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.021041> Entanglement in a Quantum Annealing Processor. </a></b> <i>PHYSICAL REVIEW X.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Boixo et al] <b><a href=https://www.Nature.com/articles/nphys2900> Evidence for quantum annealing with more than one hundred qubits. </a></b> <i>Nature.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@Article{evidenceboixo2014,
+  Title                    = {Evidence for quantum annealing with more than one hundred qubits},
+  Author                   = {Boixo, Sergio and R{\o}nnow, Troels F and Isakov, Sergei V and Wang, Zhihui and Wecker, David and Lidar, Daniel A and Martinis, John M and Troyer, Matthias},
+  Journal                  = {Nature physics},
+  Year                     = {2014},
+  Number                   = {3},
+  Pages                    = {218--224},
+  Volume                   = {10},
+  Publisher                = {Nature Publishing Group},
+  URL                      = {https://www.Nature.com/articles/nphys2900}
+}
+</code></pre></details>
 <details><summary>[McGeoch] <b><a href=https://ieeexplore.ieee.org/document/7055969> Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice. </a></b> <i>Synthesis Lectures on Quantum Computing.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Troels et al] <b><a href=https://pubmed.ncbi.nlm.nih.gov/25061205/> Quantum computing Defining and detecting quantum speedup. </a></b> <i>Science.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Lanting et al] <b><a href=https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.021041> Entanglement in a Quantum Annealing Processor. </a></b> <i>PHYSICAL REVIEW X.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 
 
 ### 2013
@@ -633,8 +665,8 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 
 
 ### 2011
-<details><summary>[Johnson et al] <b><a href=https://www.Nature.com/articles/Nature10012.pdf> Quantum annealing with manufactured spins. </a></b> <i>Nature.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Johnson et al] <b><a href=https://www.Nature.com/articles/Nature10012.pdff> Quantum annealing with manufactured spins. </a></b> <i>Nature.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Johnson et al] <b><a href=https://www.Nature.com/articles/Nature10012.pdf> Quantum annealing with manufactured spins. </a></b> <i>Nature.</i> <code><b>[Quantum Annealing]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 
 
 ### 2010
@@ -762,46 +794,20 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 </code></pre></details>
 
 
-# Quantum Approximate Optimization Algorithm
-
-
-### 2021
-<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
-  title={Noisy intermediate-scale quantum (NISQ) algorithms},
-  author={Bharti, Kishor and Cervera-Lierta, Alba and Kyaw, Thi Ha and Haug, Tobias and Alperin-Lea, Sumner and Anand, Abhinav and Degroote, Matthias and Heimonen, Hermanni and Kottmann, Jakob S and Menke, Tim and others},
-  journal={arXiv preprint arXiv:2101.08448},
-  year={2021}
-}</code></pre></details>
-
-
-### 2020
-<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
-  title={Improving variational quantum optimization using cvar},
-  author={Barkoutsos, Panagiotis Kl and Nannicini, Giacomo and Robert, Anton and Tavernelli, Ivano and Woerner, Stefan},
-  journal={Quantum},
-  volume={4},
-  pages={256},
-  year={2020},
-  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
-}</code></pre></details>
-
-
-### 2014
-<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
-  Title                    = {A quantum approximate optimization algorithm},
-  Author                   = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
-  Journal                  = {arXiv preprint arXiv:1411.4028},
-  Year                     = {2014},
-  URL                      = {https://arxiv.org/abs/1411.4028}
-}
-</code></pre></details>
-
-
 # Quantum Autoencoders
 
 
 ### 2017
-<details><summary>[Romero et al] <b><a href=https://arxiv.org/pdf/1612.02806.pdf> Quantum autoencoders for efficient compression of quantum data. </a></b> <i>Quantum Science and Technology.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Romero et al] <b><a href=https://arxiv.org/pdf/1612.02806.pdf> Quantum autoencoders for efficient compression of quantum data. </a></b> <i>Quantum Science and Technology.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{romero2017quantum,
+  title={Quantum autoencoders for efficient compression of quantum data},
+  author={Romero, Jonathan and Olson, Jonathan P and Aspuru-Guzik, Alan},
+  journal={Quantum Science and Technology},
+  volume={2},
+  number={4},
+  pages={045001},
+  year={2017},
+  publisher={IOP Publishing}
+}</code></pre></details>
 <details><summary>[Wan et al] <b><a href=https://www.nature.com/articles/s41534-017-0032-4> Quantum generalisation of feedforward neural networks. </a></b> <i>npj Quantum information.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{wan2017quantum,
   Title                    = {Quantum generalisation of feedforward neural networks},
   Author                   = {Wan, Kwok Ho and Dahlsten, Oscar and Kristj{\'a}nsson, Hl{\'e}r and Gardner, Robert and Kim, MS},
@@ -898,9 +904,24 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   journal={arXiv preprint arXiv:2006.12270},
   year={2020}
 }</code></pre></details>
-<details><summary>[Perez et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Perez-Salinas et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308> Circuit-centric quantum classifiers. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Sergioli] <b><a href=https://link.springer.com/article/10.1007/s00500-019-04429-x> Quantum and quantum-like machine learning: a note on differences and similarities. </a></b> <i>Soft Computing.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Classification]</b></code> </summary><pre><code>na</code></pre></details>
+
+
+### 2019
+<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
+  Title                    = {Supervised learning with quantum-enhanced feature spaces},
+  Author                   = {Havl{\'\i}{\v{c}}ek, Vojt{\v{e}}ch and C{\'o}rcoles, Antonio D and Temme, Kristan and Harrow, Aram W and Kandala, Abhinav and Chow, Jerry M and Gambetta, Jay M},
+  Journal                  = {Nature},
+  Year                     = {2019},
+  Number                   = {7747},
+  Pages                    = {209--212},
+  Volume                   = {567},
+  Publisher                = {Nature Publishing Group},
+  URL                      = {https://www.nature.com/articles/s41586-019-0980-2}
+}
+</code></pre></details>
 
 
 ### 2018
@@ -1029,7 +1050,12 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 
 ### 2020
 <details><summary>[Henderson et al] <b><a href=https://link.springer.com/content/pdf/10.1007/s42484-020-00012-y.pdf> Quanvolutional neural networks: powering image recognition with quantum circuits. </a></b> <i>Quantum Machine Intelligence.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Kerenidis et al] <b><a href=https://openreview.net/pdf?id=Hygab1rKDS> QUANTUM ALGORITHMS FOR DEEP CONVOLUTIONAL NEURAL NETWORK. </a></b> <i>ICLR.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Kerenidis et al] <b><a href=https://openreview.net/pdf?id=Hygab1rKDS> Quantum algorithms for deep convolutional neural networks. </a></b> <i>ICLR.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@inproceedings{kerenidis2019quantum,
+  title={Quantum Algorithms for Deep Convolutional Neural Networks},
+  author={Kerenidis, Iordanis and Landman, Jonas and Prakash, Anupam},
+  booktitle={International Conference on Learning Representations},
+  year={2019}
+}</code></pre></details>
 
 
 ### 2019
@@ -1150,9 +1176,36 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 </code></pre></details>
 <details><summary>[Savchuk & Fesenko] <b><a href=https://link.springer.com/content/pdf/10.1007/s10559-019-00107-w.pdf> Quantum Computing: Survey and Analysis. </a></b> <i>Cybernetics and Systems Analysis.</i> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>na</code></pre></details>
 <details><summary>[Schuld & Killoran] <b><a href=https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.040504> Quantum machine learning in feature Hilbert spaces. </a></b> <i>Physical Review Letters.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>na</code></pre></details>
-<details><summary>[Tacchino et al] <b><a href=https://www.Nature.com/articles/s41534-019-0140-4.pdf> An artificial neuron implemented on an actual quantumprocessor. </a></b> <i>Nature.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Torrontegui et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/125/30004/pdf> Unitary quantum perceptron as efficient universal approximator. </a></b> <i>Europhysics Letters.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>na</code></pre></details>
-<details><summary>[Wiersema et al] <b><a href=https://biblioproxy.cnr.it:2072/pra/abstract/10.1103/PhysRevA.100.020301> Implementing perceptron models with qubits. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Tacchino et al] <b><a href=https://www.Nature.com/articles/s41534-019-0140-4.pdf> An artificial neuron implemented on an actual quantumprocessor. </a></b> <i>Nature.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{tacchino2019artificial,
+  title={An artificial neuron implemented on an actual quantum processor},
+  author={Tacchino, Francesco and Macchiavello, Chiara and Gerace, Dario and Bajoni, Daniele},
+  journal={npj Quantum Information},
+  volume={5},
+  number={1},
+  pages={1--8},
+  year={2019},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
+<details><summary>[Torrontegui et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/125/30004/pdf> Unitary quantum perceptron as efficient universal approximator. </a></b> <i>Europhysics Letters.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>@article{torrontegui2019unitary,
+  title={Unitary quantum perceptron as efficient universal approximator},
+  author={Torrontegui, Erik and Garc{\'\i}a-Ripoll, Juan Jos{\'e}},
+  journal={EPL (Europhysics Letters)},
+  volume={125},
+  number={3},
+  pages={30004},
+  year={2019},
+  publisher={IOP Publishing}
+}</code></pre></details>
+<details><summary>[Wiersema et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.020301> Implementing perceptron models with qubits. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{wiersema2019implementing,
+  title={Implementing perceptron models with qubits},
+  author={Wiersema, RC and Kappen, HJ},
+  journal={Physical Review A},
+  volume={100},
+  number={2},
+  pages={020301},
+  year={2019},
+  publisher={APS}
+}</code></pre></details>
 
 
 ### 2018
@@ -1219,14 +1272,6 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   Volume                   = {24},
   Publisher                = {IEEE},
   URL                      = {https://ieeexplore.ieee.org/document/6802426}
-}
-</code></pre></details>
-<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
-  Title                    = {A quantum approximate optimization algorithm},
-  Author                   = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
-  Journal                  = {arXiv preprint arXiv:1411.4028},
-  Year                     = {2014},
-  URL                      = {https://arxiv.org/abs/1411.4028}
 }
 </code></pre></details>
 <details><summary>[Rønnow et al] <b><a href=https://arxiv.org/pdf/1401.2910.pdf> Defining and detecting quantum speedup. </a></b> <i>Science.</i> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
@@ -1383,7 +1428,7 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://www.Nature.com/articles/s41598-021-85208-3}
 }
 </code></pre></details>
-<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
+<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
   title={Noisy intermediate-scale quantum (NISQ) algorithms},
   author={Bharti, Kishor and Cervera-Lierta, Alba and Kyaw, Thi Ha and Haug, Tobias and Alperin-Lea, Sumner and Anand, Abhinav and Degroote, Matthias and Heimonen, Hermanni and Kottmann, Jakob S and Menke, Tim and others},
   journal={arXiv preprint arXiv:2101.08448},
@@ -1418,6 +1463,16 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   pages={1--5},
   year={2021},
   publisher={Nature Publishing Group}
+}</code></pre></details>
+<details><summary>[Mangini et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/134/10002/meta> Quantum computing models for artificial neural networks. </a></b> <i>EPL (Europhysics Letters).</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mangini2021quantum,
+  title={Quantum computing models for artificial neural networks},
+  author={Mangini, Stefano and Tacchino, Francesco and Gerace, Dario and Bajoni, Daniele and Macchiavello, Chiara},
+  journal={EPL (Europhysics Letters)},
+  volume={134},
+  number={1},
+  pages={10002},
+  year={2021},
+  publisher={IOP Publishing}
 }</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032430> Effect of data encoding on the expressive power of variational quantum-machine-learning models. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2021effect,
   title={Effect of data encoding on the expressive power of variational quantum-machine-learning models},
@@ -1460,7 +1515,7 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   journal={arXiv preprint arXiv:2006.12270},
   year={2020}
 }</code></pre></details>
-<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
+<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
   title={Improving variational quantum optimization using cvar},
   author={Barkoutsos, Panagiotis Kl and Nannicini, Giacomo and Robert, Anton and Tavernelli, Ivano and Woerner, Stefan},
   journal={Quantum},
@@ -1532,8 +1587,22 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://quantum-journal.org/views/qv-2020-03-17-32/}
 }
 </code></pre></details>
+<details><summary>[Gil Vidal & Theis] <b><a href=https://doi.org/10.3389/fphy.2020.00297> Input redundancy for parameterized quantum circuits. </a></b> <i>Frontiers in Physics.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{gil2020input,
+  title={Input redundancy for parameterized quantum circuits},
+  author={Gil Vidal, Francisco Javier and Theis, Dirk Oliver},
+  journal={Frontiers in Physics},
+  volume={8},
+  pages={297},
+  year={2020},
+  publisher={Frontiers}
+}</code></pre></details>
 <details><summary>[Henderson et al] <b><a href=https://link.springer.com/content/pdf/10.1007/s42484-020-00012-y.pdf> Quanvolutional neural networks: powering image recognition with quantum circuits. </a></b> <i>Quantum Machine Intelligence.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Kerenidis et al] <b><a href=https://openreview.net/pdf?id=Hygab1rKDS> QUANTUM ALGORITHMS FOR DEEP CONVOLUTIONAL NEURAL NETWORK. </a></b> <i>ICLR.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Kerenidis et al] <b><a href=https://openreview.net/pdf?id=Hygab1rKDS> Quantum algorithms for deep convolutional neural networks. </a></b> <i>ICLR.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@inproceedings{kerenidis2019quantum,
+  title={Quantum Algorithms for Deep Convolutional Neural Networks},
+  author={Kerenidis, Iordanis and Landman, Jonas and Prakash, Anupam},
+  booktitle={International Conference on Learning Representations},
+  year={2019}
+}</code></pre></details>
 <details><summary>[Macaluso et al] <b><a href=https://link.springer.com/content/pdf/10.1007%2F978-3-030-50433-5_45.pdf> A Variational Algorithm for QuantumNeural Networks. </a></b> <i>International Conference on Computational Science.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Mari et al] <b><a href=https://arxiv.org/abs/1912.08278> Transfer learning in hybrid classical-quantum neural networks. </a></b> <i>arXiv.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Transfer Learning]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Mezquita et al] <b><a href=https://link.springer.com/chapter/10.1007/978-3-030-53829-3_20> A Review of k-NN Algorithm Based on Classical and Quantum Machine Learning. </a></b> <i>DCAI 2020.</i> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>na</code></pre></details>
@@ -1547,10 +1616,8 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   year={2020},
   publisher={Taylor \& Francis}
 }</code></pre></details>
-<details><summary>[Perez et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Ramezani et al] <b><a href=https://ieeexplore.ieee.org/abstract/document/9207714/?casa_token=086gCg9_PHoAAAAA:drZYsucyKd7gT4q2d0kxFc5X9rcStHITEq7ReXA-aw8lNIx0s7d51pIz2NdwwxOzFFCYsSsh_r0r> Machine Learning Algorithms in Quantum Computing: A Survey. </a></b> <i>International Joint Conference on Neural Networks.</i> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>na</code></pre></details>
+<details><summary>[Perez-Salinas et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308> Circuit-centric quantum classifiers. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Sergioli] <b><a href=https://link.springer.com/article/10.1007/s00500-019-04429-x> Quantum and quantum-like machine learning: a note on differences and similarities. </a></b> <i>Soft Computing.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Classification]</b></code> </summary><pre><code>na</code></pre></details>
 <details><summary>[Willsch et al] <b><a href=https://www.sciencedirect.com/science/article/pii/S001046551930342X> Support vector machines on the D-Wave quantum annealer. </a></b> <i>Computer Physics Communications.</i> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{willsch2020support,
   title={Support vector machines on the D-Wave quantum annealer},
   author={Willsch, Dennis and Willsch, Madita and De Raedt, Hans and Michielsen, Kristel},
@@ -1561,6 +1628,8 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   publisher={Elsevier}
 }</code></pre></details>
 <details><summary>[Zhang & Ni] <b><a href=https://onlinelibrary.wiley.com/doi/abs/10.1002/que2.34?casa_token=t0KD3pYj7-wAAAAA:cbEXtTV6lJd1EGc4na3-akrlbLfw9jZM6r3lHfCwOIs5eP1Ma0ZxUit3wN-8Q5rkz3TmVYBdYrtayw> Recent advances in quantum machine learning. </a></b> <i>Quantum Engineering.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Theory]</b></code> </summary><pre><code>na</code></pre></details>
+<details><summary>[Ramezani et al] <b><a href=https://ieeexplore.ieee.org/abstract/document/9207714/?casa_token=086gCg9_PHoAAAAA:drZYsucyKd7gT4q2d0kxFc5X9rcStHITEq7ReXA-aw8lNIx0s7d51pIz2NdwwxOzFFCYsSsh_r0r> Machine Learning Algorithms in Quantum Computing: A Survey. </a></b> <i>International Joint Conference on Neural Networks.</i> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>na</code></pre></details>
+<details><summary>[Sergioli] <b><a href=https://link.springer.com/article/10.1007/s00500-019-04429-x> Quantum and quantum-like machine learning: a note on differences and similarities. </a></b> <i>Soft Computing.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Classification]</b></code> </summary><pre><code>na</code></pre></details>
 
 
 ### 2019
@@ -1588,7 +1657,7 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://www.nature.com/articles/s41567-019-0648-8.pdf}
 }
 </code></pre></details>
-<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
+<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
   Title                    = {Supervised learning with quantum-enhanced feature spaces},
   Author                   = {Havl{\'\i}{\v{c}}ek, Vojt{\v{e}}ch and C{\'o}rcoles, Antonio D and Temme, Kristan and Harrow, Aram W and Kandala, Abhinav and Chow, Jerry M and Gambetta, Jay M},
   Journal                  = {Nature},
@@ -1601,10 +1670,36 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 }
 </code></pre></details>
 <details><summary>[Killoran et al] <b><a href=https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033063> Continuous-variable quantum neural networks. </a></b> <i>Physical Review Research.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Liu et al] <b><a href=https://ieeexplore.ieee.org/document/8631025> A Unitary Weights Based One-Iteration QuantumPerceptron Algorithm for Non-Ideal Training Sets. </a></b> <i>IEEE Access.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Liu et al] <b><a href=https://ieeexplore.ieee.org/document/8631025> A Unitary Weights Based One-Iteration Quantum Perceptron Algorithm for Non-Ideal Training Sets. </a></b> <i>IEEE Access.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{liu2019unitary,
+  title={A unitary weights based one-iteration quantum perceptron algorithm for non-ideal training sets},
+  author={Liu, Wenjie and Gao, Peipei and Wang, Yuxiang and Yu, Wenbin and Zhang, Maojun},
+  journal={IEEE Access},
+  volume={7},
+  pages={36854--36865},
+  year={2019},
+  publisher={IEEE}
+}</code></pre></details>
 <details><summary>[Schuld & Killoran] <b><a href=https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.040504> Quantum machine learning in feature Hilbert spaces. </a></b> <i>Physical Review Letters.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>na</code></pre></details>
-<details><summary>[Tacchino et al] <b><a href=https://www.Nature.com/articles/s41534-019-0140-4.pdf> An artificial neuron implemented on an actual quantumprocessor. </a></b> <i>Nature.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Torrontegui et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/125/30004/pdf> Unitary quantum perceptron as efficient universal approximator. </a></b> <i>Europhysics Letters.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>na</code></pre></details>
+<details><summary>[Tacchino et al] <b><a href=https://www.Nature.com/articles/s41534-019-0140-4.pdf> An artificial neuron implemented on an actual quantumprocessor. </a></b> <i>Nature.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{tacchino2019artificial,
+  title={An artificial neuron implemented on an actual quantum processor},
+  author={Tacchino, Francesco and Macchiavello, Chiara and Gerace, Dario and Bajoni, Daniele},
+  journal={npj Quantum Information},
+  volume={5},
+  number={1},
+  pages={1--8},
+  year={2019},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
+<details><summary>[Torrontegui et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/125/30004/pdf> Unitary quantum perceptron as efficient universal approximator. </a></b> <i>Europhysics Letters.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>@article{torrontegui2019unitary,
+  title={Unitary quantum perceptron as efficient universal approximator},
+  author={Torrontegui, Erik and Garc{\'\i}a-Ripoll, Juan Jos{\'e}},
+  journal={EPL (Europhysics Letters)},
+  volume={125},
+  number={3},
+  pages={30004},
+  year={2019},
+  publisher={IOP Publishing}
+}</code></pre></details>
 <details><summary>[Verdon et al] <b><a href=https://arxiv.org/abs/1909.12264> Quantum graph neural networks. </a></b> <i>arXiv.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Wiebe & Wossnig] <b><a href=https://arxiv.org/abs/1905.09902> Generative training of quantum Boltzmann machines with hidden units. </a></b> <i>arXiv.</i> <code><b>[Quantum Boltzmann machines]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{wiebe2019generative,
   title={Generative training of quantum Boltzmann machines with hidden units},
@@ -1612,7 +1707,16 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   journal={arXiv preprint arXiv:1905.09902},
   year={2019}
 }</code></pre></details>
-<details><summary>[Wiersema et al] <b><a href=https://biblioproxy.cnr.it:2072/pra/abstract/10.1103/PhysRevA.100.020301> Implementing perceptron models with qubits. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Wiersema et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.020301> Implementing perceptron models with qubits. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{wiersema2019implementing,
+  title={Implementing perceptron models with qubits},
+  author={Wiersema, RC and Kappen, HJ},
+  journal={Physical Review A},
+  volume={100},
+  number={2},
+  pages={020301},
+  year={2019},
+  publisher={APS}
+}</code></pre></details>
 <details><summary>[Zoufal et al] <b><a href=https://www.nature.com/articles/s41534-019-0223-2> Quantum Generative Adversarial Networks for Learning and Loading Random
 Distributions. </a></b> <i>npj Quantum Information.</i> <code><b>[Quantum Generative Adversarial Networks]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{zoufal2019quantum,
   title={Quantum generative adversarial networks for learning and loading random distributions},
@@ -1772,7 +1876,16 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://arxiv.org/pdf/1711.11240.pdf}
 }
 </code></pre></details>
-<details><summary>[Romero et al] <b><a href=https://arxiv.org/pdf/1612.02806.pdf> Quantum autoencoders for efficient compression of quantum data. </a></b> <i>Quantum Science and Technology.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Romero et al] <b><a href=https://arxiv.org/pdf/1612.02806.pdf> Quantum autoencoders for efficient compression of quantum data. </a></b> <i>Quantum Science and Technology.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{romero2017quantum,
+  title={Quantum autoencoders for efficient compression of quantum data},
+  author={Romero, Jonathan and Olson, Jonathan P and Aspuru-Guzik, Alan},
+  journal={Quantum Science and Technology},
+  volume={2},
+  number={4},
+  pages={045001},
+  year={2017},
+  publisher={IOP Publishing}
+}</code></pre></details>
 <details><summary>[Ruan et al] <b><a href=https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s10773-017-3514-4&casa_token=CO3V9sMtWRcAAAAA:9hw3GSs7B7yTOJZoSEACk9y4uoIrHM2RuXAeY_ThKvnmvCTLd5lkn-ova5xZ4Do4xVczdIiy_YTuI8JC> Quantum algorithm for k-nearest neighbors classification based on the metric of hamming distance. </a></b> <i>International Journal of Theoretical Physics.</i> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Classification]</b></code> </summary><pre><code>na</code></pre></details>
 <details><summary>[Wan et al] <b><a href=https://www.nature.com/articles/s41534-017-0032-4> Quantum generalisation of feedforward neural networks. </a></b> <i>npj Quantum information.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{wan2017quantum,
   Title                    = {Quantum generalisation of feedforward neural networks},
@@ -1807,10 +1920,20 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 }
 </code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://www.tandfonline.com/doi/abs/10.1080/00107514.2014.964942> An introduction to quantum machine learning. </a></b> <i>Contemporary Physics.</i> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Schuld et al] <b><a href=https://doi.org/10.1016/j.physleta.2014.11.061> Simulating a perceptron on a quantum computer. </a></b> <i>Physics Letters A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2015simulating,
+  title={Simulating a perceptron on a quantum computer},
+  author={Schuld, Maria and Sinayskiy, Ilya and Petruccione, Francesco},
+  journal={Physics Letters A},
+  volume={379},
+  number={7},
+  pages={660--663},
+  year={2015},
+  publisher={Elsevier}
+}</code></pre></details>
 
 
 ### 2014
-<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
+<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
   Title                    = {A quantum approximate optimization algorithm},
   Author                   = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
   Journal                  = {arXiv preprint arXiv:1411.4028},
@@ -2079,6 +2202,16 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 }
 </code></pre></details>
 <details><summary>[Jaderberg et al] <b><a href=https://arxiv.org/abs/2103.14653> Quantum Self-Supervised Learning. </a></b> <i>arXiv.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Mangini et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/134/10002/meta> Quantum computing models for artificial neural networks. </a></b> <i>EPL (Europhysics Letters).</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mangini2021quantum,
+  title={Quantum computing models for artificial neural networks},
+  author={Mangini, Stefano and Tacchino, Francesco and Gerace, Dario and Bajoni, Daniele and Macchiavello, Chiara},
+  journal={EPL (Europhysics Letters)},
+  volume={134},
+  number={1},
+  pages={10002},
+  year={2021},
+  publisher={IOP Publishing}
+}</code></pre></details>
 
 
 ### 2020
@@ -2102,11 +2235,25 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   year={2020},
   organization={IEEE}
 }</code></pre></details>
+<details><summary>[Gil Vidal & Theis] <b><a href=https://doi.org/10.3389/fphy.2020.00297> Input redundancy for parameterized quantum circuits. </a></b> <i>Frontiers in Physics.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{gil2020input,
+  title={Input redundancy for parameterized quantum circuits},
+  author={Gil Vidal, Francisco Javier and Theis, Dirk Oliver},
+  journal={Frontiers in Physics},
+  volume={8},
+  pages={297},
+  year={2020},
+  publisher={Frontiers}
+}</code></pre></details>
 <details><summary>[Henderson et al] <b><a href=https://link.springer.com/content/pdf/10.1007/s42484-020-00012-y.pdf> Quanvolutional neural networks: powering image recognition with quantum circuits. </a></b> <i>Quantum Machine Intelligence.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Kerenidis et al] <b><a href=https://openreview.net/pdf?id=Hygab1rKDS> QUANTUM ALGORITHMS FOR DEEP CONVOLUTIONAL NEURAL NETWORK. </a></b> <i>ICLR.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Kerenidis et al] <b><a href=https://openreview.net/pdf?id=Hygab1rKDS> Quantum algorithms for deep convolutional neural networks. </a></b> <i>ICLR.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Convolutional Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@inproceedings{kerenidis2019quantum,
+  title={Quantum Algorithms for Deep Convolutional Neural Networks},
+  author={Kerenidis, Iordanis and Landman, Jonas and Prakash, Anupam},
+  booktitle={International Conference on Learning Representations},
+  year={2019}
+}</code></pre></details>
 <details><summary>[Macaluso et al] <b><a href=https://link.springer.com/content/pdf/10.1007%2F978-3-030-50433-5_45.pdf> A Variational Algorithm for QuantumNeural Networks. </a></b> <i>International Conference on Computational Science.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Mari et al] <b><a href=https://arxiv.org/abs/1912.08278> Transfer learning in hybrid classical-quantum neural networks. </a></b> <i>arXiv.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Transfer Learning]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Perez et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Perez-Salinas et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308> Circuit-centric quantum classifiers. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
 
 
@@ -2182,7 +2329,16 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://arxiv.org/pdf/1711.11240.pdf}
 }
 </code></pre></details>
-<details><summary>[Romero et al] <b><a href=https://arxiv.org/pdf/1612.02806.pdf> Quantum autoencoders for efficient compression of quantum data. </a></b> <i>Quantum Science and Technology.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Romero et al] <b><a href=https://arxiv.org/pdf/1612.02806.pdf> Quantum autoencoders for efficient compression of quantum data. </a></b> <i>Quantum Science and Technology.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{romero2017quantum,
+  title={Quantum autoencoders for efficient compression of quantum data},
+  author={Romero, Jonathan and Olson, Jonathan P and Aspuru-Guzik, Alan},
+  journal={Quantum Science and Technology},
+  volume={2},
+  number={4},
+  pages={045001},
+  year={2017},
+  publisher={IOP Publishing}
+}</code></pre></details>
 <details><summary>[Wan et al] <b><a href=https://www.nature.com/articles/s41534-017-0032-4> Quantum generalisation of feedforward neural networks. </a></b> <i>npj Quantum information.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Autoencoders]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{wan2017quantum,
   Title                    = {Quantum generalisation of feedforward neural networks},
   Author                   = {Wan, Kwok Ho and Dahlsten, Oscar and Kristj{\'a}nsson, Hl{\'e}r and Gardner, Robert and Kim, MS},
@@ -2342,7 +2498,7 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 
 
 ### 2021
-<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
+<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
   title={Noisy intermediate-scale quantum (NISQ) algorithms},
   author={Bharti, Kishor and Cervera-Lierta, Alba and Kyaw, Thi Ha and Haug, Tobias and Alperin-Lea, Sumner and Anand, Abhinav and Degroote, Matthias and Heimonen, Hermanni and Kottmann, Jakob S and Menke, Tim and others},
   journal={arXiv preprint arXiv:2101.08448},
@@ -2360,7 +2516,7 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 
 
 ### 2020
-<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
+<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
   title={Improving variational quantum optimization using cvar},
   author={Barkoutsos, Panagiotis Kl and Nannicini, Giacomo and Robert, Anton and Tavernelli, Ivano and Woerner, Stefan},
   journal={Quantum},
@@ -2399,7 +2555,7 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 
 
 ### 2014
-<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
+<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
   Title                    = {A quantum approximate optimization algorithm},
   Author                   = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
   Journal                  = {arXiv preprint arXiv:1411.4028},
@@ -2474,10 +2630,45 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 
 
 ### 2019
-<details><summary>[Liu et al] <b><a href=https://ieeexplore.ieee.org/document/8631025> A Unitary Weights Based One-Iteration QuantumPerceptron Algorithm for Non-Ideal Training Sets. </a></b> <i>IEEE Access.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Tacchino et al] <b><a href=https://www.Nature.com/articles/s41534-019-0140-4.pdf> An artificial neuron implemented on an actual quantumprocessor. </a></b> <i>Nature.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
-<details><summary>[Torrontegui et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/125/30004/pdf> Unitary quantum perceptron as efficient universal approximator. </a></b> <i>Europhysics Letters.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>na</code></pre></details>
-<details><summary>[Wiersema et al] <b><a href=https://biblioproxy.cnr.it:2072/pra/abstract/10.1103/PhysRevA.100.020301> Implementing perceptron models with qubits. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Liu et al] <b><a href=https://ieeexplore.ieee.org/document/8631025> A Unitary Weights Based One-Iteration Quantum Perceptron Algorithm for Non-Ideal Training Sets. </a></b> <i>IEEE Access.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{liu2019unitary,
+  title={A unitary weights based one-iteration quantum perceptron algorithm for non-ideal training sets},
+  author={Liu, Wenjie and Gao, Peipei and Wang, Yuxiang and Yu, Wenbin and Zhang, Maojun},
+  journal={IEEE Access},
+  volume={7},
+  pages={36854--36865},
+  year={2019},
+  publisher={IEEE}
+}</code></pre></details>
+<details><summary>[Tacchino et al] <b><a href=https://www.Nature.com/articles/s41534-019-0140-4.pdf> An artificial neuron implemented on an actual quantumprocessor. </a></b> <i>Nature.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{tacchino2019artificial,
+  title={An artificial neuron implemented on an actual quantum processor},
+  author={Tacchino, Francesco and Macchiavello, Chiara and Gerace, Dario and Bajoni, Daniele},
+  journal={npj Quantum Information},
+  volume={5},
+  number={1},
+  pages={1--8},
+  year={2019},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
+<details><summary>[Torrontegui et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/125/30004/pdf> Unitary quantum perceptron as efficient universal approximator. </a></b> <i>Europhysics Letters.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> </summary><pre><code>@article{torrontegui2019unitary,
+  title={Unitary quantum perceptron as efficient universal approximator},
+  author={Torrontegui, Erik and Garc{\'\i}a-Ripoll, Juan Jos{\'e}},
+  journal={EPL (Europhysics Letters)},
+  volume={125},
+  number={3},
+  pages={30004},
+  year={2019},
+  publisher={IOP Publishing}
+}</code></pre></details>
+<details><summary>[Wiersema et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.020301> Implementing perceptron models with qubits. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[Quantum Information and Computing]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{wiersema2019implementing,
+  title={Implementing perceptron models with qubits},
+  author={Wiersema, RC and Kappen, HJ},
+  journal={Physical Review A},
+  volume={100},
+  number={2},
+  pages={020301},
+  year={2019},
+  publisher={APS}
+}</code></pre></details>
 
 
 ### 2018
@@ -2502,6 +2693,19 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://arxiv.org/pdf/1711.11240.pdf}
 }
 </code></pre></details>
+
+
+### 2015
+<details><summary>[Schuld et al] <b><a href=https://doi.org/10.1016/j.physleta.2014.11.061> Simulating a perceptron on a quantum computer. </a></b> <i>Physics Letters A.</i> <code><b>[Quantum Perceptron]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2015simulating,
+  title={Simulating a perceptron on a quantum computer},
+  author={Schuld, Maria and Sinayskiy, Ilya and Petruccione, Francesco},
+  journal={Physics Letters A},
+  volume={379},
+  number={7},
+  pages={660--663},
+  year={2015},
+  publisher={Elsevier}
+}</code></pre></details>
 
 
 ### 2001
@@ -2656,8 +2860,8 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://www.nature.com/articles/nphys3272}
 }
 </code></pre></details>
-<details><summary>[Helmut et al] <b><a href=https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.031026> Seeking Quantum Speedup Through Spin Glasses: The Good, the Bad, and the Ugly. </a></b> <i>Physical Review X.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 <details><summary>[Itay ert al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.042325> Probing for quantum speedup in spin-glass problems with planted solutions. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
+<details><summary>[Katzgraber et al] <b><a href=https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.031026> Seeking Quantum Speedup Through Spin Glasses: The Good, the Bad, and the Ugly. </a></b> <i>Physical Review X.</i> <code><b>[Quantum Annealing]</b></code> <code><b>[Quantum Speedup-Advantage-Supremacy]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>na</code></pre></details>
 
 
 ### 2014
@@ -2773,7 +2977,7 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 
 
 ### 2019
-<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
+<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
   Title                    = {Supervised learning with quantum-enhanced feature spaces},
   Author                   = {Havl{\'\i}{\v{c}}ek, Vojt{\v{e}}ch and C{\'o}rcoles, Antonio D and Temme, Kristan and Harrow, Aram W and Kandala, Abhinav and Chow, Jerry M and Gambetta, Jay M},
   Journal                  = {Nature},
@@ -3003,11 +3207,21 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 
 
 ### 2021
-<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
+<details><summary>[Bharti et al] <b><a href=https://arxiv.org/abs/2101.08448> Noisy intermediate-scale quantum (NISQ) algorithms. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{bharti2021noisy,
   title={Noisy intermediate-scale quantum (NISQ) algorithms},
   author={Bharti, Kishor and Cervera-Lierta, Alba and Kyaw, Thi Ha and Haug, Tobias and Alperin-Lea, Sumner and Anand, Abhinav and Degroote, Matthias and Heimonen, Hermanni and Kottmann, Jakob S and Menke, Tim and others},
   journal={arXiv preprint arXiv:2101.08448},
   year={2021}
+}</code></pre></details>
+<details><summary>[Mangini et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/134/10002/meta> Quantum computing models for artificial neural networks. </a></b> <i>EPL (Europhysics Letters).</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mangini2021quantum,
+  title={Quantum computing models for artificial neural networks},
+  author={Mangini, Stefano and Tacchino, Francesco and Gerace, Dario and Bajoni, Daniele and Macchiavello, Chiara},
+  journal={EPL (Europhysics Letters)},
+  volume={134},
+  number={1},
+  pages={10002},
+  year={2021},
+  publisher={IOP Publishing}
 }</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032430> Effect of data encoding on the expressive power of variational quantum-machine-learning models. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2021effect,
   title={Effect of data encoding on the expressive power of variational quantum-machine-learning models},
@@ -3022,7 +3236,7 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 
 
 ### 2020
-<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Approximate Optimization Algorithm]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
+<details><summary>[Barkoutsos et al] <b><a href=https://quantum-journal.org/papers/q-2020-04-20-256/> Improving Variational Quantum Optimization Using CVaR. </a></b> <i>Quantum.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{barkoutsos2020improving,
   title={Improving variational quantum optimization using cvar},
   author={Barkoutsos, Panagiotis Kl and Nannicini, Giacomo and Robert, Anton and Tavernelli, Ivano and Woerner, Stefan},
   journal={Quantum},
@@ -3054,7 +3268,7 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://iopscience.iop.org/article/10.1088/2058-9565/ab4eb5/meta}
 }
 </code></pre></details>
-<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
+<details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
   Title                    = {Supervised learning with quantum-enhanced feature spaces},
   Author                   = {Havl{\'\i}{\v{c}}ek, Vojt{\v{e}}ch and C{\'o}rcoles, Antonio D and Temme, Kristan and Harrow, Aram W and Kandala, Abhinav and Chow, Jerry M and Gambetta, Jay M},
   Journal                  = {Nature},
@@ -3075,6 +3289,16 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   pages={1900070},
   year={2019},
   publisher={Wiley Online Library}
+}</code></pre></details>
+<details><summary>[Wang et al ] <b><a href=https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.140504> Accelerated Variational Quantum Eigensolver. </a></b> <i>Physical review letters.</i> <code><b>[Variational Quantum Algorithms]</b></code> </summary><pre><code>@article{wang2019accelerated,
+  title={Accelerated variational quantum eigensolver},
+  author={Wang, Daochen and Higgott, Oscar and Brierley, Stephen},
+  journal={Physical review letters},
+  volume={122},
+  number={14},
+  pages={140504},
+  year={2019},
+  publisher={APS}
 }</code></pre></details>
 <details><summary>[Zoufal et al] <b><a href=https://www.nature.com/articles/s41534-019-0223-2> Quantum Generative Adversarial Networks for Learning and Loading Random
 Distributions. </a></b> <i>npj Quantum Information.</i> <code><b>[Quantum Generative Adversarial Networks]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{zoufal2019quantum,
@@ -3112,3 +3336,37 @@ Distributions. </a></b> <i>npj Quantum Information.</i> <code><b>[Quantum Genera
   URL                      = {https://iopscience.iop.org/article/10.1088/2058-9565/aab822/meta}
 }
 </code></pre></details>
+
+
+### 2017
+<details><summary>[Kandala et al ] <b><a href=https://www.nature.com/articles/nature23879?sf114016447=1> Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> </summary><pre><code>@article{kandala2017hardware,
+  title={Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets},
+  author={Kandala, Abhinav and Mezzacapo, Antonio and Temme, Kristan and Takita, Maika and Brink, Markus and Chow, Jerry M and Gambetta, Jay M},
+  journal={Nature},
+  volume={549},
+  number={7671},
+  pages={242--246},
+  year={2017},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
+
+
+### 2014
+<details><summary>[Farhi et al] <b><a href=https://arxiv.org/abs/1411.4028> A Quantum Approximate Optimization Algorithm. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><b>[]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{farhi2014quantum,
+  Title                    = {A quantum approximate optimization algorithm},
+  Author                   = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
+  Journal                  = {arXiv preprint arXiv:1411.4028},
+  Year                     = {2014},
+  URL                      = {https://arxiv.org/abs/1411.4028}
+}
+</code></pre></details>
+<details><summary>[Peruzzo et al] <b><a href=https://www.nature.com/articles/ncomms5213> A variational eigenvalue solver on a photonic quantum processor. </a></b> <i>Nature communications.</i> <code><b>[Variational Quantum Algorithms]</b></code> </summary><pre><code>@article{peruzzo2014variational,
+  title={A variational eigenvalue solver on a photonic quantum processor},
+  author={Peruzzo, Alberto and McClean, Jarrod and Shadbolt, Peter and Yung, Man-Hong and Zhou, Xiao-Qi and Love, Peter J and Aspuru-Guzik, Al{\'a}n and O’brien, Jeremy L},
+  journal={Nature communications},
+  volume={5},
+  number={1},
+  pages={1--7},
+  year={2014},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
