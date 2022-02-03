@@ -1,6 +1,6 @@
 
-A Leap among Entanglement and Neural Networks: A Quantum Survey
-===============================================================
+A Leap among Quantum Computing and Quantum Neural Networks: A Survey
+====================================================================
 
 
 This repo reports a collection of relevant papers in the fields of Quantum Computing, Quantum Machine Learning and Quantum Deep Learning.
