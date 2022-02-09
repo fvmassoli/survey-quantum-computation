@@ -1,18 +1,18 @@
 
-A Leap among Entanglement and Neural Networks: A Quantum Survey
-===============================================================
+A Leap among Quantum Computing and Quantum Neural Networks: A Survey
+====================================================================
 
 
 This repo reports a collection of relevant papers in the fields of Quantum Computing, Quantum Machine Learning and Quantum Deep Learning.
 
 
 
-These articles represented the starting point for the paper [A Leap among Entanglement and Neural Networks: A Quantum Survey](https://arxiv.org/abs/2107.03313) and for anyone who is approaching such a field. We are continuously improving the project. Welcome to Pull Request the works (papers, repositories, topics) that are missed by the repo
+These articles represented the starting point for the paper [A Leap among Quantum Computing and Quantum Neural Networks: A Survey](https://arxiv.org/abs/2107.03313) and for anyone who is approaching such a field. We are continuously improving the project. Welcome to Pull Request the works (papers, repositories, topics) that are missed by the repo
 
 To cite our work, please use the following reference
 
 <pre><code>@article{massoli2021leap,
- title = {A Leap among Entanglement and Neural Networks: A Quantum Survey},
+ title = {A Leap among Quantum Computing and Quantum Neural Networks: A Survey},
  author = {Fabio Valerio Massoli, Lucia Vadicamo, Fabrizio Falchi, Giuseppe Amato},
  year={2021},
  eprint={2107.03313},

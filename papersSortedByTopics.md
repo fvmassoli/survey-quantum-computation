@@ -1,6 +1,6 @@
 
-A Leap among Entanglement and Neural Networks: A Quantum Survey
-===============================================================
+A Leap among Quantum Computing and Quantum Neural Networks: A Survey
+====================================================================
 
 
 --Work in Progress--
@@ -8,10 +8,15 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 # Table of Contents
 * [Adiabatic Quantum Computing](#Adiabatic-Quantum-Computing)
 * [Adiabatic Simulation](#Adiabatic-Simulation)
+* [Amplitude estimation](#Amplitude-estimation)
 * [Approximation to Adiabatic Theorem](#Approximation-to-Adiabatic-Theorem)
+* [Barren Plateau](#Barren-Plateau)
+* [Barren Plateaus](#Barren-Plateaus)
 * [Classical Implementation](#Classical-Implementation)
 * [Complexity Theory](#Complexity-Theory)
+* [Nonlinear Problems](#Nonlinear-Problems)
 * [Parameterized Quantum Circuits](#Parameterized-Quantum-Circuits)
+* [Partial Differential Equations](#Partial-Differential-Equations)
 * [Physical Realization of Qubits](#Physical-Realization-of-Qubits)
 * [Probabilistic Quantum Circuits](#Probabilistic-Quantum-Circuits)
 * [Probably Approximately Correct Learning](#Probably-Approximately-Correct-Learning)
@@ -44,7 +49,9 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 * [State Discrimination](#State-Discrimination)
 * [Statistical Mechanics](#Statistical-Mechanics)
 * [Superconducting Qubits](#Superconducting-Qubits)
+* [Time Evolution (Hamiltonian Simulation)](#Time-Evolution-(Hamiltonian-Simulation))
 * [Unsupervised Learning](#Unsupervised-Learning)
+* [Variational Inference](#Variational-Inference)
 * [Variational Quantum Algorithms](#Variational-Quantum-Algorithms)
 
 
@@ -256,6 +263,19 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 </code></pre></details>
 
 
+# Amplitude estimation
+
+
+### 2021
+<details><summary>[Plekhanov et al] <b><a href=https://arxiv.org/abs/2109.03687> Variational quantum amplitude estimation. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Amplitude estimation]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> </summary><pre><code>@article{plekhanov2021variational,
+  title={Variational quantum amplitude estimation},
+  author={Plekhanov, Kirill and Rosenkranz, Matthias and Fiorentini, Mattia and Lubasch, Michael},
+  journal={arXiv preprint arXiv:2109.03687},
+  year={2021}
+}
+</code></pre></details>
+
+
 # Approximation to Adiabatic Theorem
 
 
@@ -269,6 +289,144 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   pages={102106},
   year={2009},
   publisher={American Institute of Physics}
+}</code></pre></details>
+
+
+# Barren Plateau
+
+
+### 2021
+<details><summary>[Cerezo et al] <b><a href=https://www.nature.com/articles/s41467-021-21728-w> Cost Function Dependent Barren Plateaus in Shallow Parametrized Quantum Circuits. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateau]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{cerezo2021cost,
+  title={Cost function dependent barren plateaus in shallow parametrized quantum circuits},
+  author={Cerezo, Marco and Sone, Akira and Volkoff, Tyler and Cincio, Lukasz and Coles, Patrick J},
+  journal={Nature communications},
+  volume={12},
+  number={1},
+  pages={1--12},
+  year={2021},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
+<details><summary>[Holmes et al ] <b><a href=https://arxiv.org/abs/2101.02138> Connecting ansatz expressibility to gradient magnitudes and barren plateaus. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{holmes2021connecting,
+  title={Connecting ansatz expressibility to gradient magnitudes and barren plateaus},
+  author={Holmes, Zo{\"e} and Sharma, Kunal and Cerezo, M and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2101.02138},
+  year={2021}
+}</code></pre></details>
+<details><summary>[Patti et al] <b><a href=https://arxiv.org/abs/2012.12658> Entanglement devised barren plateau mitigation. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{patti2020entanglement,
+  title={Entanglement devised barren plateau mitigation},
+  author={Patti, Taylor L and Najafi, Khadijeh and Gao, Xun and Yelin, Susanne F},
+  journal={arXiv preprint arXiv:2012.12658},
+  year={2020}
+}</code></pre></details>
+
+
+### 2020
+<details><summary>[Marrero et al] <b><a href=https://arxiv.org/abs/2010.15968> Entanglement Induced Barren Plateaus. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{marrero2020entanglement,
+  title={Entanglement induced barren plateaus},
+  author={Marrero, Carlos Ortiz and Kieferov{\'a}, M{\'a}ria and Wiebe, Nathan},
+  journal={arXiv preprint arXiv:2010.15968},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Pesah et al] <b><a href=https://arxiv.org/abs/2011.02966> Absence of Barren Plateaus in Quantum Convolutional Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{pesah2020absence,
+  title={Absence of barren plateaus in quantum convolutional neural networks},
+  author={Pesah, Arthur and Cerezo, M and Wang, Samson and Volkoff, Tyler and Sornborger, Andrew T and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2011.02966},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Wang et al] <b><a href=https://arxiv.org/abs/2007.14384> Noise-Induced Barren Plateaus in Variational Quantum Algorithms. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{wang2020noise,
+  title={Noise-induced barren plateaus in variational quantum algorithms},
+  author={Wang, Samson and Fontana, Enrico and Cerezo, Marco and Sharma, Kunal and Sone, Akira and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2007.14384},
+  year={2020}
+}</code></pre></details>
+
+
+### 2019
+<details><summary>[Grant et al] <b><a href=https://quantum-journal.org/papers/q-2019-12-09-214/> An initialization strategy for addressing barren plateaus in parametrized quantum circuits. </a></b> <i>Quantum.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{grant2019initialization,
+  title={An initialization strategy for addressing barren plateaus in parametrized quantum circuits},
+  author={Grant, Edward and Wossnig, Leonard and Ostaszewski, Mateusz and Benedetti, Marcello},
+  journal={Quantum},
+  volume={3},
+  pages={214},
+  year={2019},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
+
+
+### 2018
+<details><summary>[McClean et al] <b><a href=https://www.nature.com/articles/s41467-018-07090-4> Barren plateaus in quantum neural network training landscapes. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mcclean2018barren,
+  title={Barren plateaus in quantum neural network training landscapes},
+  author={McClean, Jarrod R and Boixo, Sergio and Smelyanskiy, Vadim N and Babbush, Ryan and Neven, Hartmut},
+  journal={Nature communications},
+  volume={9},
+  number={1},
+  pages={1--6},
+  year={2018},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
+
+
+# Barren Plateaus
+
+
+### 2021
+<details><summary>[Holmes et al ] <b><a href=https://arxiv.org/abs/2101.02138> Connecting ansatz expressibility to gradient magnitudes and barren plateaus. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{holmes2021connecting,
+  title={Connecting ansatz expressibility to gradient magnitudes and barren plateaus},
+  author={Holmes, Zo{\"e} and Sharma, Kunal and Cerezo, M and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2101.02138},
+  year={2021}
+}</code></pre></details>
+<details><summary>[Patti et al] <b><a href=https://arxiv.org/abs/2012.12658> Entanglement devised barren plateau mitigation. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{patti2020entanglement,
+  title={Entanglement devised barren plateau mitigation},
+  author={Patti, Taylor L and Najafi, Khadijeh and Gao, Xun and Yelin, Susanne F},
+  journal={arXiv preprint arXiv:2012.12658},
+  year={2020}
+}</code></pre></details>
+
+
+### 2020
+<details><summary>[Marrero et al] <b><a href=https://arxiv.org/abs/2010.15968> Entanglement Induced Barren Plateaus. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{marrero2020entanglement,
+  title={Entanglement induced barren plateaus},
+  author={Marrero, Carlos Ortiz and Kieferov{\'a}, M{\'a}ria and Wiebe, Nathan},
+  journal={arXiv preprint arXiv:2010.15968},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Pesah et al] <b><a href=https://arxiv.org/abs/2011.02966> Absence of Barren Plateaus in Quantum Convolutional Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{pesah2020absence,
+  title={Absence of barren plateaus in quantum convolutional neural networks},
+  author={Pesah, Arthur and Cerezo, M and Wang, Samson and Volkoff, Tyler and Sornborger, Andrew T and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2011.02966},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Wang et al] <b><a href=https://arxiv.org/abs/2007.14384> Noise-Induced Barren Plateaus in Variational Quantum Algorithms. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{wang2020noise,
+  title={Noise-induced barren plateaus in variational quantum algorithms},
+  author={Wang, Samson and Fontana, Enrico and Cerezo, Marco and Sharma, Kunal and Sone, Akira and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2007.14384},
+  year={2020}
+}</code></pre></details>
+
+
+### 2019
+<details><summary>[Grant et al] <b><a href=https://quantum-journal.org/papers/q-2019-12-09-214/> An initialization strategy for addressing barren plateaus in parametrized quantum circuits. </a></b> <i>Quantum.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{grant2019initialization,
+  title={An initialization strategy for addressing barren plateaus in parametrized quantum circuits},
+  author={Grant, Edward and Wossnig, Leonard and Ostaszewski, Mateusz and Benedetti, Marcello},
+  journal={Quantum},
+  volume={3},
+  pages={214},
+  year={2019},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
+
+
+### 2018
+<details><summary>[McClean et al] <b><a href=https://www.nature.com/articles/s41467-018-07090-4> Barren plateaus in quantum neural network training landscapes. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mcclean2018barren,
+  title={Barren plateaus in quantum neural network training landscapes},
+  author={McClean, Jarrod R and Boixo, Sergio and Smelyanskiy, Vadim N and Babbush, Ryan and Neven, Hartmut},
+  journal={Nature communications},
+  volume={9},
+  number={1},
+  pages={1--6},
+  year={2018},
+  publisher={Nature Publishing Group}
 }</code></pre></details>
 
 
@@ -371,6 +529,23 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
 }</code></pre></details>
 
 
+# Nonlinear Problems
+
+
+### 2021
+<details><summary>[Lubsch et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.010301> Variational quantum algorithms for nonlinear problems. </a></b> <i>Physical Review A.</i> <code><b>[Nonlinear Problems]</b></code> <code><b>[Partial Differential Equations]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{lubasch2020variational,
+  title={Variational quantum algorithms for nonlinear problems},
+  author={Lubasch, Michael and Joo, Jaewoo and Moinier, Pierre and Kiffner, Martin and Jaksch, Dieter},
+  journal={Physical Review A},
+  volume={101},
+  number={1},
+  pages={010301},
+  year={2020},
+  publisher={APS}
+}
+</code></pre></details>
+
+
 # Parameterized Quantum Circuits
 
 
@@ -381,6 +556,16 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   journal={arXiv preprint arXiv:2101.08448},
   year={2021}
 }</code></pre></details>
+<details><summary>[Cerezo et al] <b><a href=https://www.nature.com/articles/s41467-021-21728-w> Cost Function Dependent Barren Plateaus in Shallow Parametrized Quantum Circuits. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateau]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{cerezo2021cost,
+  title={Cost function dependent barren plateaus in shallow parametrized quantum circuits},
+  author={Cerezo, Marco and Sone, Akira and Volkoff, Tyler and Cincio, Lukasz and Coles, Patrick J},
+  journal={Nature communications},
+  volume={12},
+  number={1},
+  pages={1--12},
+  year={2021},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
 <details><summary>[Egger et al] <b><a href=https://quantum-journal.org/papers/q-2021-06-17-479/> Warm-starting quantum optimization. </a></b> <i>Quantum.</i> <code><b>[Quantum Optimization]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{egger2021warm,
   title={Warm-starting quantum optimization},
   author={Egger, Daniel J and Mare{\v{c}}ek, Jakub and Woerner, Stefan},
@@ -389,6 +574,12 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   pages={479},
   year={2021},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
+<details><summary>[Holmes et al ] <b><a href=https://arxiv.org/abs/2101.02138> Connecting ansatz expressibility to gradient magnitudes and barren plateaus. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{holmes2021connecting,
+  title={Connecting ansatz expressibility to gradient magnitudes and barren plateaus},
+  author={Holmes, Zo{\"e} and Sharma, Kunal and Cerezo, M and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2101.02138},
+  year={2021}
 }</code></pre></details>
 <details><summary>[Mangini et al] <b><a href=https://iopscience.iop.org/article/10.1209/0295-5075/134/10002/meta> Quantum computing models for artificial neural networks. </a></b> <i>EPL (Europhysics Letters).</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mangini2021quantum,
   title={Quantum computing models for artificial neural networks},
@@ -400,6 +591,12 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   year={2021},
   publisher={IOP Publishing}
 }</code></pre></details>
+<details><summary>[Perez-Salinas et al] <b><a href=https://arxiv.org/abs/2102.04032> One qubit as a Universal Approximant. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{perez2021one,
+  title={One qubit as a Universal Approximant},
+  author={P{\'e}rez-Salinas, Adri{\'a}n and L{\'o}pez-N{\'u}{\~n}ez, David and Garc{\'\i}a-S{\'a}ez, Artur and Forn-D{\'\i}az, P and Latorre, Jos{\'e} I},
+  journal={arXiv preprint arXiv:2102.04032},
+  year={2021}
+}</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032430> Effect of data encoding on the expressive power of variational quantum-machine-learning models. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2021effect,
   title={Effect of data encoding on the expressive power of variational quantum-machine-learning models},
   author={Schuld, Maria and Sweke, Ryan and Meyer, Johannes Jakob},
@@ -410,6 +607,43 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   year={2021},
   publisher={APS}
 }</code></pre></details>
+<details><summary>[Plekhanov et al] <b><a href=https://arxiv.org/abs/2109.03687> Variational quantum amplitude estimation. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Amplitude estimation]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> </summary><pre><code>@article{plekhanov2021variational,
+  title={Variational quantum amplitude estimation},
+  author={Plekhanov, Kirill and Rosenkranz, Matthias and Fiorentini, Mattia and Lubasch, Michael},
+  journal={arXiv preprint arXiv:2109.03687},
+  year={2021}
+}
+</code></pre></details>
+<details><summary>[Amaro et al.] <b><a href=https://arxiv.org/abs/2106.10055> Filtering variational quantum algorithms for combinatorial optimization. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> </summary><pre><code>@article{amaro2021filtering,
+  title={Filtering variational quantum algorithms for combinatorial optimization},
+  author={Amaro, David and Modica, Carlo and Rosenkranz, Matthias and Fiorentini, Mattia and Benedetti, Marcello and Lubasch, Michael},
+  journal={Quantum Science and Technology},
+  year={2021},
+  publisher={IOP Publishing}
+}
+</code></pre></details>
+<details><summary>[Benedetti et al] <b><a href=https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.044057> Variational Inference with a Quantum Computer. </a></b> <i>Physical Review Applied.</i> <code><b>[Variational Inference]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{benedetti2021variational,
+  title={Variational inference with a quantum computer},
+  author={Benedetti, Marcello and Coyle, Brian and Fiorentini, Mattia and Lubasch, Michael and Rosenkranz, Matthias},
+  journal={Physical Review Applied},
+  volume={16},
+  number={4},
+  pages={044057},
+  year={2021},
+  publisher={APS}
+}
+</code></pre></details>
+<details><summary>[Benedetti et al] <b><a href=https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.033083> Hardware-efficient variational quantum algorithms for time evolution. </a></b> <i>Physical Review Research.</i> <code><b>[Time Evolution (Hamiltonian Simulation)]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{benedetti2021hardware,
+  title={Hardware-efficient variational quantum algorithms for time evolution},
+  author={Benedetti, Marcello and Fiorentini, Mattia and Lubasch, Michael},
+  journal={Physical Review Research},
+  volume={3},
+  number={3},
+  pages={033083},
+  year={2021},
+  publisher={APS}
+}
+</code></pre></details>
 
 
 ### 2020
@@ -422,9 +656,30 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   year={2020},
   publisher={Frontiers}
 }</code></pre></details>
+<details><summary>[Sharma et al] <b><a href=https://arxiv.org/abs/2005.12458> Trainability of Dissipative Perceptron-Based Quantum Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{sharma2020trainability,
+  title={Trainability of dissipative perceptron-based quantum neural networks},
+  author={Sharma, Kunal and Cerezo, Marco and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2005.12458},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Wang et al] <b><a href=https://arxiv.org/abs/2007.14384> Noise-Induced Barren Plateaus in Variational Quantum Algorithms. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{wang2020noise,
+  title={Noise-induced barren plateaus in variational quantum algorithms},
+  author={Wang, Samson and Fontana, Enrico and Cerezo, Marco and Sharma, Kunal and Sone, Akira and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2007.14384},
+  year={2020}
+}</code></pre></details>
 
 
 ### 2019
+<details><summary>[Grant et al] <b><a href=https://quantum-journal.org/papers/q-2019-12-09-214/> An initialization strategy for addressing barren plateaus in parametrized quantum circuits. </a></b> <i>Quantum.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{grant2019initialization,
+  title={An initialization strategy for addressing barren plateaus in parametrized quantum circuits},
+  author={Grant, Edward and Wossnig, Leonard and Ostaszewski, Mateusz and Benedetti, Marcello},
+  journal={Quantum},
+  volume={3},
+  pages={214},
+  year={2019},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
 <details><summary>[Sim et al] <b><a href=https://onlinelibrary.wiley.com/doi/10.1002/qute.201900070> Expressibility and Entangling Capability of Parameterized Quantum Circuits for Hybrid Quantum-Classical Algorithms. </a></b> <i>Advanced Quantum Technologies.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{sim2019expressibility,
   title={Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms},
   author={Sim, Sukin and Johnson, Peter D and Aspuru-Guzik, Al{\'a}n},
@@ -457,6 +712,23 @@ A Leap among Entanglement and Neural Networks: A Quantum Survey
   Journal                  = {arXiv preprint arXiv:1411.4028},
   Year                     = {2014},
   URL                      = {https://arxiv.org/abs/1411.4028}
+}
+</code></pre></details>
+
+
+# Partial Differential Equations
+
+
+### 2021
+<details><summary>[Lubsch et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.010301> Variational quantum algorithms for nonlinear problems. </a></b> <i>Physical Review A.</i> <code><b>[Nonlinear Problems]</b></code> <code><b>[Partial Differential Equations]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{lubasch2020variational,
+  title={Variational quantum algorithms for nonlinear problems},
+  author={Lubasch, Michael and Joo, Jaewoo and Moinier, Pierre and Kiffner, Martin and Jaksch, Dieter},
+  journal={Physical Review A},
+  volume={101},
+  number={1},
+  pages={010301},
+  year={2020},
+  publisher={APS}
 }
 </code></pre></details>
 
@@ -1825,6 +2097,16 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   journal={arXiv preprint arXiv:2101.08448},
   year={2021}
 }</code></pre></details>
+<details><summary>[Cerezo et al] <b><a href=https://www.nature.com/articles/s41467-021-21728-w> Cost Function Dependent Barren Plateaus in Shallow Parametrized Quantum Circuits. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateau]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{cerezo2021cost,
+  title={Cost function dependent barren plateaus in shallow parametrized quantum circuits},
+  author={Cerezo, Marco and Sone, Akira and Volkoff, Tyler and Cincio, Lukasz and Coles, Patrick J},
+  journal={Nature communications},
+  volume={12},
+  number={1},
+  pages={1--12},
+  year={2021},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
 <details><summary>[Chen et al] <b><a href=https://arxiv.org/abs/1805.08654> Universal discriminative quantum neural networks. </a></b> <i>Quantum Machine Intelligence.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{chen2021universal,
   Title                    = {Universal discriminative quantum neural networks},
   Author                   = {Chen, Hongxiang and Wossnig, Leonard and Severini, Simone and Neven, Hartmut and Mohseni, Masoud},
@@ -1845,6 +2127,12 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   pages={479},
   year={2021},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
+<details><summary>[Holmes et al ] <b><a href=https://arxiv.org/abs/2101.02138> Connecting ansatz expressibility to gradient magnitudes and barren plateaus. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{holmes2021connecting,
+  title={Connecting ansatz expressibility to gradient magnitudes and barren plateaus},
+  author={Holmes, Zo{\"e} and Sharma, Kunal and Cerezo, M and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2101.02138},
+  year={2021}
 }</code></pre></details>
 <details><summary>[Jaderberg et al] <b><a href=https://arxiv.org/abs/2103.14653> Quantum Self-Supervised Learning. </a></b> <i>arXiv.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{jaderberg2021quantum,
   title={Quantum Self-Supervised Learning},
@@ -1870,6 +2158,18 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   year={2021},
   publisher={IOP Publishing}
 }</code></pre></details>
+<details><summary>[Patti et al] <b><a href=https://arxiv.org/abs/2012.12658> Entanglement devised barren plateau mitigation. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{patti2020entanglement,
+  title={Entanglement devised barren plateau mitigation},
+  author={Patti, Taylor L and Najafi, Khadijeh and Gao, Xun and Yelin, Susanne F},
+  journal={arXiv preprint arXiv:2012.12658},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Perez-Salinas et al] <b><a href=https://arxiv.org/abs/2102.04032> One qubit as a Universal Approximant. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{perez2021one,
+  title={One qubit as a Universal Approximant},
+  author={P{\'e}rez-Salinas, Adri{\'a}n and L{\'o}pez-N{\'u}{\~n}ez, David and Garc{\'\i}a-S{\'a}ez, Artur and Forn-D{\'\i}az, P and Latorre, Jos{\'e} I},
+  journal={arXiv preprint arXiv:2102.04032},
+  year={2021}
+}</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032430> Effect of data encoding on the expressive power of variational quantum-machine-learning models. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{schuld2021effect,
   title={Effect of data encoding on the expressive power of variational quantum-machine-learning models},
   author={Schuld, Maria and Sweke, Ryan and Meyer, Johannes Jakob},
@@ -1880,6 +2180,39 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   year={2021},
   publisher={APS}
 }</code></pre></details>
+<details><summary>[Benedetti et al] <b><a href=https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.044057> Variational Inference with a Quantum Computer. </a></b> <i>Physical Review Applied.</i> <code><b>[Variational Inference]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{benedetti2021variational,
+  title={Variational inference with a quantum computer},
+  author={Benedetti, Marcello and Coyle, Brian and Fiorentini, Mattia and Lubasch, Michael and Rosenkranz, Matthias},
+  journal={Physical Review Applied},
+  volume={16},
+  number={4},
+  pages={044057},
+  year={2021},
+  publisher={APS}
+}
+</code></pre></details>
+<details><summary>[Benedetti et al] <b><a href=https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.033083> Hardware-efficient variational quantum algorithms for time evolution. </a></b> <i>Physical Review Research.</i> <code><b>[Time Evolution (Hamiltonian Simulation)]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{benedetti2021hardware,
+  title={Hardware-efficient variational quantum algorithms for time evolution},
+  author={Benedetti, Marcello and Fiorentini, Mattia and Lubasch, Michael},
+  journal={Physical Review Research},
+  volume={3},
+  number={3},
+  pages={033083},
+  year={2021},
+  publisher={APS}
+}
+</code></pre></details>
+<details><summary>[Lubsch et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.010301> Variational quantum algorithms for nonlinear problems. </a></b> <i>Physical Review A.</i> <code><b>[Nonlinear Problems]</b></code> <code><b>[Partial Differential Equations]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{lubasch2020variational,
+  title={Variational quantum algorithms for nonlinear problems},
+  author={Lubasch, Michael and Joo, Jaewoo and Moinier, Pierre and Kiffner, Martin and Jaksch, Dieter},
+  journal={Physical Review A},
+  volume={101},
+  number={1},
+  pages={010301},
+  year={2020},
+  publisher={APS}
+}
+</code></pre></details>
 
 
 ### 2020
@@ -2035,6 +2368,12 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   year={2020},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
 }</code></pre></details>
+<details><summary>[Marrero et al] <b><a href=https://arxiv.org/abs/2010.15968> Entanglement Induced Barren Plateaus. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{marrero2020entanglement,
+  title={Entanglement induced barren plateaus},
+  author={Marrero, Carlos Ortiz and Kieferov{\'a}, M{\'a}ria and Wiebe, Nathan},
+  journal={arXiv preprint arXiv:2010.15968},
+  year={2020}
+}</code></pre></details>
 <details><summary>[Mezquita et al] <b><a href=https://link.springer.com/chapter/10.1007/978-3-030-53829-3_20> A Review of k-NN Algorithm Based on Classical and Quantum Machine Learning. </a></b> <i>DCAI 2020.</i> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@inproceedings{mezquita2020review,
   title={A Review of k-NN Algorithm Based on Classical and Quantum Machine Learning},
   author={Mezquita, Yeray and Alonso, Ricardo S and Casado-Vara, Roberto and Prieto, Javier and Corchado, Juan Manuel},
@@ -2061,6 +2400,12 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   pages={226},
   year={2020},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
+<details><summary>[Pesah et al] <b><a href=https://arxiv.org/abs/2011.02966> Absence of Barren Plateaus in Quantum Convolutional Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{pesah2020absence,
+  title={Absence of barren plateaus in quantum convolutional neural networks},
+  author={Pesah, Arthur and Cerezo, M and Wang, Samson and Volkoff, Tyler and Sornborger, Andrew T and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2011.02966},
+  year={2020}
 }</code></pre></details>
 <details><summary>[Ramezani et al] <b><a href=https://ieeexplore.ieee.org/abstract/document/9207714/?casa_token=086gCg9_PHoAAAAA:drZYsucyKd7gT4q2d0kxFc5X9rcStHITEq7ReXA-aw8lNIx0s7d51pIz2NdwwxOzFFCYsSsh_r0r> Machine Learning Algorithms in Quantum Computing: A Survey. </a></b> <i>International Joint Conference on Neural Networks.</i> <code><b>[Quantum Information and Computing]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@inproceedings{ramezani2020machine,
   title={Machine learning algorithms in quantum computing: A survey},
@@ -2089,6 +2434,18 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   pages={10247--10255},
   year={2020},
   publisher={Springer}
+}</code></pre></details>
+<details><summary>[Sharma et al] <b><a href=https://arxiv.org/abs/2005.12458> Trainability of Dissipative Perceptron-Based Quantum Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{sharma2020trainability,
+  title={Trainability of dissipative perceptron-based quantum neural networks},
+  author={Sharma, Kunal and Cerezo, Marco and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2005.12458},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Wang et al] <b><a href=https://arxiv.org/abs/2007.14384> Noise-Induced Barren Plateaus in Variational Quantum Algorithms. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{wang2020noise,
+  title={Noise-induced barren plateaus in variational quantum algorithms},
+  author={Wang, Samson and Fontana, Enrico and Cerezo, Marco and Sharma, Kunal and Sone, Akira and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2007.14384},
+  year={2020}
 }</code></pre></details>
 <details><summary>[Willsch et al] <b><a href=https://www.sciencedirect.com/science/article/pii/S001046551930342X> Support vector machines on the D-Wave quantum annealer. </a></b> <i>Computer Physics Communications.</i> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Adiabatic Model)</i></code></summary><pre><code>@article{willsch2020support,
   title={Support vector machines on the D-Wave quantum annealer},
@@ -2136,6 +2493,15 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://www.nature.com/articles/s41567-019-0648-8.pdf}
 }
 </code></pre></details>
+<details><summary>[Grant et al] <b><a href=https://quantum-journal.org/papers/q-2019-12-09-214/> An initialization strategy for addressing barren plateaus in parametrized quantum circuits. </a></b> <i>Quantum.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{grant2019initialization,
+  title={An initialization strategy for addressing barren plateaus in parametrized quantum circuits},
+  author={Grant, Edward and Wossnig, Leonard and Ostaszewski, Mateusz and Benedetti, Marcello},
+  journal={Quantum},
+  volume={3},
+  pages={214},
+  year={2019},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
 <details><summary>[Havlíček et al] <b><a href=https://www.nature.com/articles/s41586-019-0980-2> Supervised learning with quantum-enhanced feature spaces. </a></b> <i>Nature.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Support Vector Machine]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{havlivcek2019supervised,
   Title                    = {Supervised learning with quantum-enhanced feature spaces},
   Author                   = {Havl{\'\i}{\v{c}}ek, Vojt{\v{e}}ch and C{\'o}rcoles, Antonio D and Temme, Kristan and Harrow, Aram W and Kandala, Abhinav and Chow, Jerry M and Gambetta, Jay M},
@@ -2328,6 +2694,16 @@ Distributions. </a></b> <i>npj Quantum Information.</i> <code><b>[Quantum Genera
   pages={99--109},
   year={2018},
   publisher={Scientific Research Publishing}
+}</code></pre></details>
+<details><summary>[McClean et al] <b><a href=https://www.nature.com/articles/s41467-018-07090-4> Barren plateaus in quantum neural network training landscapes. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mcclean2018barren,
+  title={Barren plateaus in quantum neural network training landscapes},
+  author={McClean, Jarrod R and Boixo, Sergio and Smelyanskiy, Vadim N and Babbush, Ryan and Neven, Hartmut},
+  journal={Nature communications},
+  volume={9},
+  number={1},
+  pages={1--6},
+  year={2018},
+  publisher={Nature Publishing Group}
 }</code></pre></details>
 <details><summary>[Mitarai et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.032309> Quantum circuit learning. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mitarai2018quantum,
   title={Quantum circuit learning},
@@ -2767,6 +3143,16 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
 
 
 ### 2021
+<details><summary>[Cerezo et al] <b><a href=https://www.nature.com/articles/s41467-021-21728-w> Cost Function Dependent Barren Plateaus in Shallow Parametrized Quantum Circuits. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateau]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{cerezo2021cost,
+  title={Cost function dependent barren plateaus in shallow parametrized quantum circuits},
+  author={Cerezo, Marco and Sone, Akira and Volkoff, Tyler and Cincio, Lukasz and Coles, Patrick J},
+  journal={Nature communications},
+  volume={12},
+  number={1},
+  pages={1--12},
+  year={2021},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
 <details><summary>[Chen et al] <b><a href=https://arxiv.org/abs/1805.08654> Universal discriminative quantum neural networks. </a></b> <i>Quantum Machine Intelligence.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@Article{chen2021universal,
   Title                    = {Universal discriminative quantum neural networks},
   Author                   = {Chen, Hongxiang and Wossnig, Leonard and Severini, Simone and Neven, Hartmut and Mohseni, Masoud},
@@ -2779,6 +3165,12 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://arxiv.org/abs/1805.08654}
 }
 </code></pre></details>
+<details><summary>[Holmes et al ] <b><a href=https://arxiv.org/abs/2101.02138> Connecting ansatz expressibility to gradient magnitudes and barren plateaus. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{holmes2021connecting,
+  title={Connecting ansatz expressibility to gradient magnitudes and barren plateaus},
+  author={Holmes, Zo{\"e} and Sharma, Kunal and Cerezo, M and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2101.02138},
+  year={2021}
+}</code></pre></details>
 <details><summary>[Jaderberg et al] <b><a href=https://arxiv.org/abs/2103.14653> Quantum Self-Supervised Learning. </a></b> <i>arXiv.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{jaderberg2021quantum,
   title={Quantum Self-Supervised Learning},
   author={Jaderberg, Ben and Anderson, Lewis W and Xie, Weidi and Albanie, Samuel and Kiffner, Martin and Jaksch, Dieter},
@@ -2795,6 +3187,29 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   year={2021},
   publisher={IOP Publishing}
 }</code></pre></details>
+<details><summary>[Patti et al] <b><a href=https://arxiv.org/abs/2012.12658> Entanglement devised barren plateau mitigation. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{patti2020entanglement,
+  title={Entanglement devised barren plateau mitigation},
+  author={Patti, Taylor L and Najafi, Khadijeh and Gao, Xun and Yelin, Susanne F},
+  journal={arXiv preprint arXiv:2012.12658},
+  year={2020}
+}</code></pre></details>
+<details><summary>[Perez-Salinas et al] <b><a href=https://arxiv.org/abs/2102.04032> One qubit as a Universal Approximant. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{perez2021one,
+  title={One qubit as a Universal Approximant},
+  author={P{\'e}rez-Salinas, Adri{\'a}n and L{\'o}pez-N{\'u}{\~n}ez, David and Garc{\'\i}a-S{\'a}ez, Artur and Forn-D{\'\i}az, P and Latorre, Jos{\'e} I},
+  journal={arXiv preprint arXiv:2102.04032},
+  year={2021}
+}</code></pre></details>
+<details><summary>[Lubsch et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.010301> Variational quantum algorithms for nonlinear problems. </a></b> <i>Physical Review A.</i> <code><b>[Nonlinear Problems]</b></code> <code><b>[Partial Differential Equations]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{lubasch2020variational,
+  title={Variational quantum algorithms for nonlinear problems},
+  author={Lubasch, Michael and Joo, Jaewoo and Moinier, Pierre and Kiffner, Martin and Jaksch, Dieter},
+  journal={Physical Review A},
+  volume={101},
+  number={1},
+  pages={010301},
+  year={2020},
+  publisher={APS}
+}
+</code></pre></details>
 
 
 ### 2020
@@ -2870,6 +3285,12 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   year={2020},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
 }</code></pre></details>
+<details><summary>[Marrero et al] <b><a href=https://arxiv.org/abs/2010.15968> Entanglement Induced Barren Plateaus. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{marrero2020entanglement,
+  title={Entanglement induced barren plateaus},
+  author={Marrero, Carlos Ortiz and Kieferov{\'a}, M{\'a}ria and Wiebe, Nathan},
+  journal={arXiv preprint arXiv:2010.15968},
+  year={2020}
+}</code></pre></details>
 <details><summary>[Perez-Salinas et al] <b><a href=https://quantum-journal.org/papers/q-2020-02-06-226/> Data re-uploading for a universal quantum classifier. </a></b> <i>Quantum.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{perez2020data,
   title={Data re-uploading for a universal quantum classifier},
   author={P{\'e}rez-Salinas, Adri{\'a}n and Cervera-Lierta, Alba and Gil-Fuster, Elies and Latorre, Jos{\'e} I},
@@ -2878,6 +3299,12 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   pages={226},
   year={2020},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
+<details><summary>[Pesah et al] <b><a href=https://arxiv.org/abs/2011.02966> Absence of Barren Plateaus in Quantum Convolutional Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{pesah2020absence,
+  title={Absence of barren plateaus in quantum convolutional neural networks},
+  author={Pesah, Arthur and Cerezo, M and Wang, Samson and Volkoff, Tyler and Sornborger, Andrew T and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2011.02966},
+  year={2020}
 }</code></pre></details>
 <details><summary>[Schuld et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032308> Circuit-centric quantum classifiers. </a></b> <i>Physical Review A.</i> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Classification]</b></code> <code><b>[Quantum Machine Learning]</b></code> <code><i>(Gate Model)</i></code></summary><pre><code>@article{schuld2020circuit,
   title={Circuit-centric quantum classifiers},
@@ -2888,6 +3315,12 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   pages={032308},
   year={2020},
   publisher={APS}
+}</code></pre></details>
+<details><summary>[Sharma et al] <b><a href=https://arxiv.org/abs/2005.12458> Trainability of Dissipative Perceptron-Based Quantum Neural Networks. </a></b> <i>arXiv.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{sharma2020trainability,
+  title={Trainability of dissipative perceptron-based quantum neural networks},
+  author={Sharma, Kunal and Cerezo, Marco and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2005.12458},
+  year={2020}
 }</code></pre></details>
 
 
@@ -2904,6 +3337,15 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://www.nature.com/articles/s41567-019-0648-8.pdf}
 }
 </code></pre></details>
+<details><summary>[Grant et al] <b><a href=https://quantum-journal.org/papers/q-2019-12-09-214/> An initialization strategy for addressing barren plateaus in parametrized quantum circuits. </a></b> <i>Quantum.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{grant2019initialization,
+  title={An initialization strategy for addressing barren plateaus in parametrized quantum circuits},
+  author={Grant, Edward and Wossnig, Leonard and Ostaszewski, Mateusz and Benedetti, Marcello},
+  journal={Quantum},
+  volume={3},
+  pages={214},
+  year={2019},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
+}</code></pre></details>
 <details><summary>[Kamruzzaman et al] <b><a href=https://link.springer.com/chapter/10.1007/978-3-030-12385-7_24> Quantum Deep Learning Neural Networks. </a></b> <i>FICC 2019.</i> <code><b>[Quantum Neural Networks]</b></code> </summary><pre><code>@inproceedings{kamruzzaman2019quantum,
   title={Quantum deep learning neural networks},
   author={Kamruzzaman, Abu and Alhwaiti, Yousef and Leider, Avery and Tappert, Charles C},
@@ -2973,6 +3415,16 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   URL                      = {https://www.nature.com/articles/s41534-018-0116-9}
 }
 </code></pre></details>
+<details><summary>[McClean et al] <b><a href=https://www.nature.com/articles/s41467-018-07090-4> Barren plateaus in quantum neural network training landscapes. </a></b> <i>Nature communications.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mcclean2018barren,
+  title={Barren plateaus in quantum neural network training landscapes},
+  author={McClean, Jarrod R and Boixo, Sergio and Smelyanskiy, Vadim N and Babbush, Ryan and Neven, Hartmut},
+  journal={Nature communications},
+  volume={9},
+  number={1},
+  pages={1--6},
+  year={2018},
+  publisher={Nature Publishing Group}
+}</code></pre></details>
 <details><summary>[Mitarai et al] <b><a href=https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.032309> Quantum circuit learning. </a></b> <i>Physical Review A.</i> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Neural Networks]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{mitarai2018quantum,
   title={Quantum circuit learning},
   author={Mitarai, Kosuke and Negoro, Makoto and Kitagawa, Masahiro and Fujii, Keisuke},
@@ -3203,6 +3655,14 @@ spaces. </a></b> <i>Frontiers in physics.</i> <code><b>[Quantum Reinforcement Le
   year={2021},
   publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
 }</code></pre></details>
+<details><summary>[Amaro et al.] <b><a href=https://arxiv.org/abs/2106.10055> Filtering variational quantum algorithms for combinatorial optimization. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> </summary><pre><code>@article{amaro2021filtering,
+  title={Filtering variational quantum algorithms for combinatorial optimization},
+  author={Amaro, David and Modica, Carlo and Rosenkranz, Matthias and Fiorentini, Mattia and Benedetti, Marcello and Lubasch, Michael},
+  journal={Quantum Science and Technology},
+  year={2021},
+  publisher={IOP Publishing}
+}
+</code></pre></details>
 
 
 ### 2020
@@ -3970,6 +4430,23 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 }</code></pre></details>
 
 
+# Time Evolution (Hamiltonian Simulation)
+
+
+### 2021
+<details><summary>[Benedetti et al] <b><a href=https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.033083> Hardware-efficient variational quantum algorithms for time evolution. </a></b> <i>Physical Review Research.</i> <code><b>[Time Evolution (Hamiltonian Simulation)]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{benedetti2021hardware,
+  title={Hardware-efficient variational quantum algorithms for time evolution},
+  author={Benedetti, Marcello and Fiorentini, Mattia and Lubasch, Michael},
+  journal={Physical Review Research},
+  volume={3},
+  number={3},
+  pages={033083},
+  year={2021},
+  publisher={APS}
+}
+</code></pre></details>
+
+
 # Unsupervised Learning
 
 
@@ -4011,6 +4488,23 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
 </code></pre></details>
 
 
+# Variational Inference
+
+
+### 2021
+<details><summary>[Benedetti et al] <b><a href=https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.044057> Variational Inference with a Quantum Computer. </a></b> <i>Physical Review Applied.</i> <code><b>[Variational Inference]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{benedetti2021variational,
+  title={Variational inference with a quantum computer},
+  author={Benedetti, Marcello and Coyle, Brian and Fiorentini, Mattia and Lubasch, Michael and Rosenkranz, Matthias},
+  journal={Physical Review Applied},
+  volume={16},
+  number={4},
+  pages={044057},
+  year={2021},
+  publisher={APS}
+}
+</code></pre></details>
+
+
 # Variational Quantum Algorithms
 
 
@@ -4041,6 +4535,21 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   year={2021},
   publisher={APS}
 }</code></pre></details>
+<details><summary>[Plekhanov et al] <b><a href=https://arxiv.org/abs/2109.03687> Variational quantum amplitude estimation. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Amplitude estimation]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> </summary><pre><code>@article{plekhanov2021variational,
+  title={Variational quantum amplitude estimation},
+  author={Plekhanov, Kirill and Rosenkranz, Matthias and Fiorentini, Mattia and Lubasch, Michael},
+  journal={arXiv preprint arXiv:2109.03687},
+  year={2021}
+}
+</code></pre></details>
+<details><summary>[Amaro et al.] <b><a href=https://arxiv.org/abs/2106.10055> Filtering variational quantum algorithms for combinatorial optimization. </a></b> <i>arXiv.</i> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Optimization]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> </summary><pre><code>@article{amaro2021filtering,
+  title={Filtering variational quantum algorithms for combinatorial optimization},
+  author={Amaro, David and Modica, Carlo and Rosenkranz, Matthias and Fiorentini, Mattia and Benedetti, Marcello and Lubasch, Michael},
+  journal={Quantum Science and Technology},
+  year={2021},
+  publisher={IOP Publishing}
+}
+</code></pre></details>
 
 
 ### 2020
@@ -4061,6 +4570,12 @@ Current State of Play. </a></b> <i>Annual review of condensed matter physics.</i
   URL                      = {https://arxiv.org/pdf/2012.09265.pdf}
 }
 </code></pre></details>
+<details><summary>[Wang et al] <b><a href=https://arxiv.org/abs/2007.14384> Noise-Induced Barren Plateaus in Variational Quantum Algorithms. </a></b> <i>arXiv.</i> <code><b>[Barren Plateaus]</b></code> <code><b>[Parameterized Quantum Circuits]</b></code> <code><b>[Variational Quantum Algorithms]</b></code> <code><b>[Quantum Machine Learning]</b></code> </summary><pre><code>@article{wang2020noise,
+  title={Noise-induced barren plateaus in variational quantum algorithms},
+  author={Wang, Samson and Fontana, Enrico and Cerezo, Marco and Sharma, Kunal and Sone, Akira and Cincio, Lukasz and Coles, Patrick J},
+  journal={arXiv preprint arXiv:2007.14384},
+  year={2020}
+}</code></pre></details>
 
 
 ### 2019
