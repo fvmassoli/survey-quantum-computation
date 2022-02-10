@@ -30,7 +30,7 @@ To cite our work, please use the following reference
 
 ## Contacts
 
-Have you noticed a missing or misclassified article? We would greatly appreciate it if you could report it to us with a Pull Request or using the form the form at the following link:
+Have you noticed a missing or misclassified article? We would greatly appreciate it if you could report it to us using the form at the following link: [https://forms.gle/75AdK8yPL1N4hJ9H7](https://forms.gle/75AdK8yPL1N4hJ9H7)
 
 
 
