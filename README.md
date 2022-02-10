@@ -20,21 +20,18 @@ To cite our work, please use the following reference
  primaryClass={quant-ph}
  }</code></pre>
 
+# Be part of the team!
+
+Have you noticed a missing or misclassified article? We would greatly appreciate it if you could report it to us using the form at the following link: [https://forms.gle/75AdK8yPL1N4hJ9H7](https://forms.gle/75AdK8yPL1N4hJ9H7)
 
 
-# Table of Contents
+## Table of Contents
 
 * [All the papers (flat view)](https://github.com/fvmassoli/survey-quantum-computations/blob/master/allPapers.md)
 
 * [Papers divided by topics](https://github.com/fvmassoli/survey-quantum-computations/blob/master/papersSortedByTopics.md) [WIP]
 
 ## Contacts
-
-Have you noticed a missing or misclassified article? We would greatly appreciate it if you could report it to us using the form at the following link: [https://forms.gle/75AdK8yPL1N4hJ9H7](https://forms.gle/75AdK8yPL1N4hJ9H7)
-
-
-
-
 
 If you have any question about our work, please contact [Dr. Fabio Valerio Massoli](mailto:fabio.massoli@isti.cnr.it) and [Dr. Lucia Vadicamo](mailto:lucia.vadicamo@isti.cnr.it)
 
