@@ -37,5 +37,4 @@ Have you noticed a missing or misclassified article? We would greatly appreciate
 If you have any question about our work, please contact [Dr. Fabio Valerio Massoli](mailto:fabio.massoli@isti.cnr.it) and [Dr. Lucia Vadicamo](mailto:lucia.vadicamo@isti.cnr.it)
 
 
-
 Have fun! :-D
