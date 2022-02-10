@@ -25,6 +25,7 @@ To cite our work, please use the following reference
 Have you noticed a missing or misclassified article? We would greatly appreciate it if you could report it to us using the form at the following link: [https://forms.gle/75AdK8yPL1N4hJ9H7](https://forms.gle/75AdK8yPL1N4hJ9H7)
 
 
+
 ## Table of Contents
 
 * [All the papers (flat view)](https://github.com/fvmassoli/survey-quantum-computations/blob/master/allPapers.md)
@@ -34,5 +35,7 @@ Have you noticed a missing or misclassified article? We would greatly appreciate
 ## Contacts
 
 If you have any question about our work, please contact [Dr. Fabio Valerio Massoli](mailto:fabio.massoli@isti.cnr.it) and [Dr. Lucia Vadicamo](mailto:lucia.vadicamo@isti.cnr.it)
+
+
 
 Have fun! :-D
